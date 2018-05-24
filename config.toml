@@ -1,0 +1,43 @@
+baseURL = "http://example.org/"
+languageCode = "ja-JP"
+title = "(仮)映身展2019"
+theme = "hugo-nederburg-theme"
+
+# Enable Google Analytics by entering your tracking code
+googleAnalytics = ""
+preserveTaxonomyNames = true
+paginate = 5 #frontpage pagination
+
+[params]
+  slogan = ""
+  authorLink = "https://twitter.com/capelitotvshow"
+
+  copyright = [
+    "&copy; 2019 映身展実行委員会",
+    "Masaki Sugano"
+  ]
+
+
+# Nav links in the side bar
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "About"
+url = "about/"
+weight = 2
+
+
+[[menu.main]]
+name = "Get in touch"
+url = "contact/"
+weight = 3
+
+
+[params.social]
+facebook      = "full profile url in facebook"
+email         = "eishinten2019@gmail.com"
+twitter       = "https://twitter.com/eishinten2019"
+instagram     = "full profile url in instagram"
