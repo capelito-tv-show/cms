@@ -1,7 +1,7 @@
 ---
-title: "Design"
-date: 2017-11-13T12:21:16-05:00
-image: "img/plant.jpg"
+title: "コンテンツを追加"
+date: 2018-05月22日
+image: "img/poster.jpg"
 external_link: ""
 weight: 2
 ---
