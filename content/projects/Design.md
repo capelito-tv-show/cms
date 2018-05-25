@@ -1,6 +1,6 @@
 ---
 title: "コンテンツを追加"
-date: 2018-05月22日
+date: 2017-03-09T13:23:28+08:00
 image: "img/poster.jpg"
 external_link: ""
 weight: 2
