@@ -1,0 +1,16 @@
+.hero {
+  background-image: url("../img/avatar.jpg");
+}
+.bold-title {
+  color: white;
+}
+.subtitle {
+  color: white;
+}
+.fa {
+  color: white;
+}
+
+.nav-item a, a.nav-item {
+  color: white;
+}

@@ -27,7 +27,7 @@
     <div class="hero-foot {{ if .Site.Params.fadeIn | default true }}fade-in three{{ end }}">
     <hr>
     <nav class="nav-center">
-        <a class="nav-item" href="#about">About</a>
+        <a class="nav-item" href="#about">映身展とは</a>
         {{ if .Site.Params.showProjects }}
         <a class="nav-item" href="#projects">Projects</a>
         {{ end }}
@@ -46,12 +46,12 @@
 <!-- Tell them all about it! -->
 <div class="section" id="about">
     <div class="container">
-    <h2 class="title is-2 has-text-centered">About</h2>
+    <h2 class="title is-2 has-text-centered">映身展とは</h2>
 
         <div class="columns"><!-- Avatar and about.md side by side except mobile -->
             {{ if .Site.Params.avatar }}
             <div class="column is-one-third has-text-centered">
-              <img class="img-responsive avatar" src="/{{ .Site.Params.avatar }}" alt="My profile picture.">
+              <img class="img-responsive avatar" src="/{{ .Site.Params.avatar }}" alt="映身展とは">
             </div>
             {{ end }}
             <div class="column markdown">
