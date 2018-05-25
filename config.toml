@@ -1,43 +1,59 @@
-baseURL = "http://example.org/"
-languageCode = "ja-JP"
-title = "(仮)映身展2019"
-theme = "hugo-nederburg-theme"
-
-# Enable Google Analytics by entering your tracking code
-googleAnalytics = ""
-preserveTaxonomyNames = true
-paginate = 5 #frontpage pagination
+baseurl                 = "/"   # Your domain name. Must end with "/"
+languageCode            = "en-us"
+title                   = "映身展2019"
+theme                   = "introduction"
+enforce_ssl             = false
+builddrafts             = false                             # Include pages with draft status of true
+canonifyurls            = true                              # Turns relative urls into absolute urls
+# disqusshortname       = "xxx"                             # Enable Disqus for comments
+# googleAnalytics       = "xxx"
 
 [params]
-  slogan = ""
-  authorLink = "https://twitter.com/capelitotvshow"
+    blogHead            = "Blog"                            # Full name shows on blog post pages
+    firstName           = "映身展2019"                    # First name shows in introduction on main page
+    #tagLine             = "I'm a theme for Hugo."           # Appears after the introduction
+    introHeight         = "large"                           # Input either 'medium' or 'large' or 'fullheight'
+    themeStyle          = "dark"                           # Choose 'light' or 'dark'
+    avatar              = "img/profile.jpg"                 # Path to image in static folder eg. img/avatar.png, or comment out to remove
+    email               = "youremail@email.com"             # Shows in contact section, or leave blank to omit
+    localTime           = true                              # Show your current local time in contact section
+    timeZone            = "America/Los_Angeles"             # Your timezone as in the TZ* column of this list: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+    dateForm            = "Jan 2, 2006"
+    dateFormFull        = "Mon Jan 2 2006 15:04:05 EST"
+    cacheBuster         = false                             # Add the current unix timestamp in query string for cache busting css assets (relevant in development mode)
+    description         = "Website Description"             # Max 160 characters show in search results
+    faviconFile         = "img/fav.ico"
+    pygmentsStyle       = "monokai"                         # https://help.farbox.com/pygments.html
+    pygmentsCodefences  = true
+    footerText          = "©️映像身体学科"                                # Text to show in footer (overrides default text)
+    fadeIn              = true                              # Turn on/off the fade-in effect
+    customCSS           = []                                # Include custom css files e.g. ["css/foo.css", "css/bar.css"]
 
-  copyright = [
-    "&copy; 2019 映身展実行委員会",
-    "Masaki Sugano"
-  ]
+    showBlog            = true                              # Show Blog section on home page
+    showProjects        = true                              # Show Projects section on home page
+    projectColumns      = "3"                               # Choose "2" or "3" columns for projects section
+    placeHolderimg      = "/img/workday.jpg"                # For Projects without image
+    showAllPosts        = false                             # Set 'true' to list all posts on home page, or set 'false' to link to separate blog list page
+    showLatest          = true                              # Show latest blog post summary
+    shareButtons        = true                              # On post pages, show share this social buttons
 
+    # Share buttons
+    shareTwitter        = true
+    shareFacebook       = true
+    sharePinterest      = false
+    shareGooglePlus     = true
 
-# Nav links in the side bar
-[[menu.main]]
-name = "Home"
-url = "/"
-weight = 1
+# Social icons appear in introduction and contact section. Add as many more as you like.
+# Find icon names here: http://fontawesome.io/cheatsheet/
 
-[[menu.main]]
-name = "About"
-url = "about/"
-weight = 2
+[[params.social]]
+    url = "https://twitter.com/"
+    icon = "twitter"
 
+[[params.social]]
+    url = "https://facebook.com/"
+    icon = "facebook"
 
-[[menu.main]]
-name = "Get in touch"
-url = "contact/"
-weight = 3
-
-
-[params.social]
-facebook      = "full profile url in facebook"
-email         = "eishinten2019@gmail.com"
-twitter       = "https://twitter.com/eishinten2019"
-instagram     = "full profile url in instagram"
+[[params.social]]
+    url = "https://linkedin.com/"
+    icon = "instagram"
