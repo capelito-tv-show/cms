@@ -28,14 +28,16 @@
     <div class="hero-foot {{ if .Site.Params.fadeIn | default true }}fade-in three{{ end }}">
     <hr>
     <nav class="nav-center">
-        <a class="nav-item" href="#about">映身展とは</a>
+        <!-- <a class="nav-item" href="#about">映身展とは</a> -->
         {{ if .Site.Params.showProjects }}
-        <a class="nav-item" href="#projects">展示一覧</a>
+        <a class="nav-item" href="#projects">作品情報</a>
         {{ end }}
         {{ if .Site.Params.showBlog }}
         <a class="nav-item" href="#blog">ニュース</a>
         {{ end }}
+        <a class="nav-item" href="#contact">特別インタビュー</a>
         <a class="nav-item" href="#contact">お問い合わせ</a>
+
     </nav>
     <hr>
     </div><!-- Done with nav bar -->

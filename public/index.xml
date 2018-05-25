@@ -12,23 +12,12 @@
     
     
     <item>
-      <title>コンテンツを追加</title>
-      <link>/projects/design/</link>
+      <title>出展者募集中</title>
+      <link>/projects/%E5%87%BA%E5%BA%97%E8%80%85%E5%8B%9F%E9%9B%86/</link>
       <pubDate>Thu, 09 Mar 2017 13:23:28 +0800</pubDate>
       
-      <guid>/projects/design/</guid>
-      <description>This theme was designed by Vicky Lai. Go on, explore! 💪
-If you want to use it for your website, check out the section at the bottom of the main page. 👍</description>
-    </item>
-    
-    <item>
-      <title>Writing</title>
-      <link>/projects/writing/</link>
-      <pubDate>Mon, 13 Nov 2017 12:21:11 -0500</pubDate>
-      
-      <guid>/projects/writing/</guid>
-      <description>Aromatic aroma con panna, crema so coffee robust coffee barista, café au lait trifecta that strong blue mountain cortado aftertaste. Aroma extraction french press, skinny sweet, blue mountain cup roast barista, beans, extra cappuccino mug crema strong.
-To go viennese cream to go, flavour, so mocha as, carajillo iced et a siphon froth. Aged, eu, cup, brewed aroma kopi-luwak, coffee, id viennese french press brewed grounds acerbic froth. Decaffeinated acerbic, spoon beans seasonal, french press café au lait mazagran roast chicory, pumpkin spice galão as fair trade, dark irish cup ristretto half and half whipped shop.</description>
+      <guid>/projects/%E5%87%BA%E5%BA%97%E8%80%85%E5%8B%9F%E9%9B%86/</guid>
+      <description>映像×写真×演劇×舞踊×哲学…… 立教大学 現代心理学部 映像身体学科に所属する学生有志によるプロジェクト『映身展』の公式アカウントです。＊今年度も開催が決定しました。お問い合わせは</description>
     </item>
     
     <item>
@@ -64,8 +53,7 @@ To go viennese cream to go, flavour, so mocha as, carajillo iced et a siphon fro
       <pubDate>Thu, 09 Mar 2017 13:23:28 +0800</pubDate>
       
       <guid>/contact/</guid>
-      <description>In the Contact section of Introduction, you may optionally display the current time in your preferred timezone.
-This lets visitors know what sort of response time to expect when they contact you. The timezone is easily set in the config file.</description>
+      <description></description>
     </item>
     
     <item>
