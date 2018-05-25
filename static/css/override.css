@@ -1,5 +1,9 @@
 .hero {
   background-image: url("../img/avatar.jpg");
+  /* background-repeat: no-repeat; */
+}
+.hero-body {
+  padding-top: 15rem;
 }
 .bold-title {
   color: white;
@@ -13,4 +17,11 @@
 
 .nav-item a, a.nav-item {
   color: white;
+}
+
+.top-logo {
+  width: 20%;
+  height: auto;
+  border: none;
+  box-shadow: none;
 }
