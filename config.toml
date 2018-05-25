@@ -1,6 +1,6 @@
 baseurl                 = "/"   # Your domain name. Must end with "/"
 languageCode            = "en-us"
-title                   = "映身展2019"
+title                   = "hugarhuga"
 theme                   = "introduction"
 enforce_ssl             = false
 builddrafts             = false                             # Include pages with draft status of true
@@ -10,12 +10,12 @@ canonifyurls            = true                              # Turns relative url
 
 [params]
     blogHead            = "Blog"                            # Full name shows on blog post pages
-    firstName           = "映身展2019"                    # First name shows in introduction on main page
-    #tagLine             = "I'm a theme for Hugo."           # Appears after the introduction
+    firstName           = "hugarhuga"                    # First name shows in introduction on main page
+    tagLine             = "タグラインを追加"           # Appears after the introduction
     introHeight         = "large"                           # Input either 'medium' or 'large' or 'fullheight'
     themeStyle          = "light"                           # Choose 'light' or 'dark'
     avatar              = "img/profile.jpg"                 # Path to image in static folder eg. img/avatar.png, or comment out to remove
-    email               = "youremail@email.com"             # Shows in contact section, or leave blank to omit
+    email               = "eishinten@email.com"             # Shows in contact section, or leave blank to omit
     localTime           = true                              # Show your current local time in contact section
     timeZone            = "America/Los_Angeles"             # Your timezone as in the TZ* column of this list: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
     dateForm            = "Jan 2, 2006"
