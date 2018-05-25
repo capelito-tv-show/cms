@@ -1,5 +1,5 @@
 backend:
-  name: cms
+  name: github
   repo: capelito-tv-show/cms
   branch: master
 
