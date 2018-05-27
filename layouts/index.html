@@ -29,13 +29,13 @@
     <hr>
     <nav class="nav-center">
         <!-- <a class="nav-item" href="#about">映身展とは</a> -->
+        <a class="nav-item" href="#infomation">基本情報</a>
         {{ if .Site.Params.showProjects }}
-        <a class="nav-item" href="#projects">作品情報</a>
+        <a class="nav-item" href="#projects">出展情報</a>
         {{ end }}
         {{ if .Site.Params.showBlog }}
         <a class="nav-item" href="#blog">ニュース</a>
         {{ end }}
-        <a class="nav-item" href="#contact">特別インタビュー</a>
         <a class="nav-item" href="#contact">お問い合わせ</a>
 
     </nav>
@@ -46,24 +46,42 @@
 <!-- Everything below fades in three! -->
 <div class="section no-padding {{ if .Site.Params.fadeIn | default true }}fade-in three{{ end }}">
 
-<!-- Tell them all about it! -->
-<div class="section" id="about">
-    <div class="container">
-    <h2 class="title is-2 has-text-centered">映身展とは</h2>
 
-        <div class="columns"><!-- Avatar and about.md side by side except mobile -->
-            {{ if .Site.Params.avatar }}
-            <div class="column is-one-third has-text-centered">
-              <img class="img-responsive avatar" src="/{{ .Site.Params.avatar }}" alt="映身展とは">
-            </div>
-            {{ end }}
-            <div class="column markdown">
-                {{ range .Data.Pages }}
-                    {{if eq .Title "About" }}
-                            {{.Content}}
-                        {{end}}
-                    {{ end }}
-            </div>
+  <!-- Tell them all about it! -->
+  <div class="section" id="about">
+      <div class="container">
+      <h2 class="title is-2 has-text-centered">映身展とは</h2>
+
+          <div class="columns"><!-- Avatar and about.md side by side except mobile -->
+              {{ if .Site.Params.avatar }}
+              <div class="column is-one-third has-text-centered">
+                <img class="img-responsive avatar" src="/{{ .Site.Params.avatar }}" alt="映身展とは">
+              </div>
+              {{ end }}
+              <div class="column markdown">
+                  {{ range .Data.Pages }}
+                      {{if eq .Title "About" }}
+                              {{.Content}}
+                          {{end}}
+                      {{ end }}
+              </div>
+          </div>
+      </div><!-- End About container-->
+
+  <div class="container has-text-centered top-pad"><a href="#top"><i class="fa fa-arrow-up"></i></a></div>
+  </div><!-- End About section -->
+
+
+<!-- Tell them all about it! -->
+<div class="section" id="infomation">
+    <div class="container">
+    <h2 class="title is-2 has-text-centered">基本情報</h2>
+        <div class="column markdown">
+            {{ range .Data.Pages }}
+                {{if eq .Title "Infomation" }}
+                        {{.Content}}
+                    {{end}}
+                {{ end }}
         </div>
     </div><!-- End About container-->
 
@@ -112,10 +130,12 @@
 
         <script>
         $(document).ready(function() {
-        var time = moment().tz("{{ .Site.Params.timeZone }}").format("h:mm A");
-        $('#time').html(time);
-        })
-        </script>
+  var time = moment()
+    .tz("{{ .Site.Params.timeZone }}")
+    .format("h:mm A");
+  $("#time").html(time);
+});
+</script>
         {{ end }}
 
         {{ if .Site.Params.email }}
@@ -140,13 +160,16 @@
 <!-- Bitty scrolling links script -->
 <script>
 $('a[href^="#"]').click(function(e) {
-    e.preventDefault();
-    var target = this.hash;
-    $('html, body').animate({
-    scrollTop: $(target).offset().top
-    }, 500);
-    return false;
-})
+  e.preventDefault();
+  var target = this.hash;
+  $("html, body").animate(
+    {
+      scrollTop: $(target).offset().top
+    },
+    500
+  );
+  return false;
+});
 </script>
 
 </body>
