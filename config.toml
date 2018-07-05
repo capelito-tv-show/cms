@@ -6,7 +6,7 @@ enforce_ssl             = false
 builddrafts             = false                             # Include pages with draft status of true
 canonifyurls            = true                              # Turns relative urls into absolute urls
 # disqusshortname       = "xxx"                             # Enable Disqus for comments
-# googleAnalytics       = "xxx"
+googleAnalytics       = "UA-121881442-1"
 
 [params]
     blogHead            = "Blog"                            # Full name shows on blog post pages
@@ -15,9 +15,9 @@ canonifyurls            = true                              # Turns relative url
     introHeight         = "medium"                           # Input either 'medium' or 'large' or 'fullheight'
     themeStyle          = "light"                           # Choose 'light' or 'dark'
     avatar              = "img/avatar.jpg"                 # Path to image in static folder eg. img/avatar.png, or comment out to remove
-    email               = "eishinten2019@email.com"             # Shows in contact section, or leave blank to omit
+    email               = "eishinten2019@gmail.com"             # Shows in contact section, or leave blank to omit
     localTime           = false                              # Show your current local time in contact section
-    timeZone            = "America/Los_Angeles"             # Your timezone as in the TZ* column of this list: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+    timeZone            = "Asia/Tokyo"             # Your timezone as in the TZ* column of this list: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
     dateForm            = "Jan 2, 2006"
     dateFormFull        = "Mon Jan 2 2006 15:04:05 EST"
     cacheBuster         = false                             # Add the current unix timestamp in query string for cache busting css assets (relevant in development mode)
@@ -25,7 +25,7 @@ canonifyurls            = true                              # Turns relative url
     faviconFile         = "img/logo.ico"
     pygmentsStyle       = "monokai"                         # https://help.farbox.com/pygments.html
     pygmentsCodefences  = true
-    footerText          = "©️立教大学映像身体学科"                                # Text to show in footer (overrides default text)
+    footerText          = "©️立教大学現代心理学部映像身体学科"                                # Text to show in footer (overrides default text)
     fadeIn              = true                              # Turn on/off the fade-in effect
     customCSS           = ["css/override.css"]                                # Include custom css files e.g. ["css/foo.css", "css/bar.css"]
 
