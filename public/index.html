@@ -227,7 +227,7 @@
     <div class="section" id="projects">
         <div class="container">
     
-    <h2 class="title is-2 has-text-centered">出展情報</h2>
+    <h2 class="title is-3 has-text-centered">出展情報</h2>
 
     <div class="section is-small">
         <div class="columns is-multiline">
@@ -272,12 +272,20 @@
     <button class="modal-close is-large" aria-label="close" id="closecomingsoon...."></button>
 </div>
 <script>
-    $('#projectcomingsoon....').click(function() {
-        $('#modalcomingsoon....').addClass('is-active');
-    });
-    $('#closecomingsoon....').click(function() {
-        $('#modalcomingsoon....').removeClass('is-active');
-    });
+$('#projectcomingsoon....').click(
+  function() {
+    $('#modalcomingsoon....').addClass(
+      "is-active"
+    );
+  }
+);
+$('#closecomingsoon....').click(
+  function() {
+    $(
+      '#modalcomingsoon....'
+    ).removeClass("is-active");
+  }
+);
 </script>
           
 
