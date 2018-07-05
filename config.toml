@@ -22,10 +22,10 @@ canonifyurls            = true                              # Turns relative url
     dateFormFull        = "Mon Jan 2 2006 15:04:05 EST"
     cacheBuster         = false                             # Add the current unix timestamp in query string for cache busting css assets (relevant in development mode)
     description         = "Website Description"             # Max 160 characters show in search results
-    faviconFile         = "img/fav.ico"
+    faviconFile         = "img/logo.ico"
     pygmentsStyle       = "monokai"                         # https://help.farbox.com/pygments.html
     pygmentsCodefences  = true
-    footerText          = "©️映像身体学科有志"                                # Text to show in footer (overrides default text)
+    footerText          = "©️立教大学映像身体学科"                                # Text to show in footer (overrides default text)
     fadeIn              = true                              # Turn on/off the fade-in effect
     customCSS           = ["css/override.css"]                                # Include custom css files e.g. ["css/foo.css", "css/bar.css"]
 
@@ -41,7 +41,7 @@ canonifyurls            = true                              # Turns relative url
     shareTwitter        = true
     shareFacebook       = true
     sharePinterest      = true
-    shareGooglePlus     = true
+    shareGooglePlus     = false
 
 # Social icons appear in introduction and contact section. Add as many more as you like.
 # Find icon names here: http://fontawesome.io/cheatsheet/
@@ -55,5 +55,5 @@ canonifyurls            = true                              # Turns relative url
 #     icon = "facebook"
 
 [[params.social]]
-    url = "https://linkedin.com/"
+    url = "https://instagram.com/rikkyo_eishinten"
     icon = "instagram"
