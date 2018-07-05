@@ -1,6 +1,18 @@
 .project-image {
   object-fit: cover;
 }
+
+.video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 1;
+}
+
 .column {
   margin: 0 auto;
 }
@@ -21,12 +33,13 @@
   color: white;
 }
 
-.nav-item a, a.nav-item {
+.nav-item a,
+a.nav-item {
   color: white;
 }
 
 .nav-a {
-  color: #00b8d4; 
+  color: #00b8d4;
 }
 
 .top-logo {
@@ -38,7 +51,10 @@
 
 @media screen and (max-width: 768px) {
   .nav-item {
-  padding: 5px;
+    padding: 5px;
+  }
+  .is-2 {
+    font-size: 2rem;
   }
 }
 

@@ -1,6 +1,5 @@
 {{ partial "header.html" . }}
 <body>
-
 <div id="top"> <!-- Where all the awesome begins -->
 
 <div class="hero is-{{ .Site.Params.introHeight | default "fullheight" }}">
@@ -30,11 +29,11 @@
     <nav class="nav-center">
         <!-- <a class="nav-item" href="#about">映身展とは</a> -->
         <a class="nav-item" href="#infomation">基本情報</a>
-        {{ if .Site.Params.showProjects }}
-        <a class="nav-item" href="#projects">出展情報</a>
-        {{ end }}
+        <!-- {{ if .Site.Params.showProjects }}
+        <a class="nav-item" href="#projects">ニュース・出展情報</a>
+        {{ end }} -->
         {{ if .Site.Params.showBlog }}
-        <a class="nav-item" href="#blog">ニュース</a>
+        <a class="nav-item" href="#blog">ニュース・出展情報</a>
         {{ end }}
         <a class="nav-item" href="#contact">お問い合わせ</a>
 
@@ -50,7 +49,7 @@
   <!-- Tell them all about it! -->
   <div class="section" id="about">
       <div class="container">
-      <h2 class="title is-2 has-text-centered">映身展とは</h2>
+      <h2 class="title is-3 has-text-centered">映身展とは</h2>
 
           <div class="columns"><!-- Avatar and about.md side by side except mobile -->
               {{ if .Site.Params.avatar }}
@@ -75,7 +74,7 @@
 <!-- Tell them all about it! -->
 <div class="section" id="infomation">
     <div class="container">
-    <h2 class="title is-2 has-text-centered">基本情報</h2>
+    <h2 class="title is-3 has-text-centered">基本情報</h2>
         <div class="column markdown">
             {{ range .Data.Pages }}
                 {{if eq .Title "Infomation" }}
@@ -91,6 +90,16 @@
 <div class="container"><hr></div>
 
 
+<!-- Let's show some blog posts -->
+    {{ if .Site.Params.showBlog }}
+    <div class="section" id="blog">
+        {{ partial "blogsection.html" . }}
+    </div><!-- End Blog section -->
+
+    <div class="container"><hr></div>
+    {{ end }}
+
+
 <!-- Now for some cool projects -->
     {{ if .Site.Params.showProjects }}
     <div class="section" id="projects">
@@ -101,19 +110,11 @@
     {{ end }}
 
 
-<!-- Let's show some blog posts -->
-    {{ if .Site.Params.showBlog }}
-    <div class="section" id="blog">
-        {{ partial "blogsection.html" . }}
-    </div><!-- End Blog section -->
-
-    <div class="container"><hr></div>
-    {{ end }}
 
 <!-- Let's chat, shall we? -->
 <div class="section" id="contact">
     <div class="container has-text-centered">
-    <h2 class="title is-2">お問い合わせ</h2>
+    <h2 class="title is-3">お問い合わせ</h2>
         <div class="markdown">
             {{ range .Data.Pages }}
                 {{if eq .Title "Contact" }}

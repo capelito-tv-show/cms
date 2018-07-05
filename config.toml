@@ -25,7 +25,7 @@ canonifyurls            = true                              # Turns relative url
     faviconFile         = "img/fav.ico"
     pygmentsStyle       = "monokai"                         # https://help.farbox.com/pygments.html
     pygmentsCodefences  = true
-    footerText          = "©️映像身体学科10期生有志"                                # Text to show in footer (overrides default text)
+    footerText          = "©️映像身体学科有志"                                # Text to show in footer (overrides default text)
     fadeIn              = true                              # Turn on/off the fade-in effect
     customCSS           = ["css/override.css"]                                # Include custom css files e.g. ["css/foo.css", "css/bar.css"]
 
@@ -50,9 +50,9 @@ canonifyurls            = true                              # Turns relative url
     url = "https://twitter.com/eishinten2019"
     icon = "twitter"
 
-[[params.social]]
-    url = "https://facebook.com/"
-    icon = "facebook"
+# [[params.social]]
+#     url = "https://facebook.com/"
+#     icon = "facebook"
 
 [[params.social]]
     url = "https://linkedin.com/"
