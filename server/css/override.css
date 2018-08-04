@@ -1,0 +1,63 @@
+.project-image {
+  object-fit: cover;
+}
+
+.video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 1;
+}
+
+.column {
+  margin: 0 auto;
+}
+.hero {
+  background-image: url("../img/avatar.jpg");
+  /* background-repeat: no-repeat; */
+}
+.hero-body {
+  padding-top: 15rem;
+}
+.bold-title {
+  color: white;
+}
+.subtitle {
+  color: white;
+}
+.fa {
+  color: white;
+}
+
+.nav-item a,
+a.nav-item {
+  color: white;
+}
+
+.nav-a {
+  color: #00b8d4;
+}
+
+.top-logo {
+  width: 20%;
+  height: auto;
+  border: none;
+  box-shadow: none;
+}
+
+@media screen and (max-width: 768px) {
+  .nav-item {
+    padding: 5px;
+  }
+  .is-2 {
+    font-size: 2rem;
+  }
+}
+
+.blog-share a {
+  color: black;
+}

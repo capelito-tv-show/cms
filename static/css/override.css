@@ -1,7 +1,9 @@
 .project-image {
   object-fit: cover;
 }
-
+.section {
+  padding: 0.7rem;
+}
 .video {
   position: fixed;
   right: 0;
@@ -17,14 +19,21 @@
   margin: 0 auto;
 }
 .hero {
-  background-image: url("../img/avatar.jpg");
-  /* background-repeat: no-repeat; */
+  background-image: url("../img/site_top.JPG");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
 }
 .hero-body {
   padding-top: 15rem;
 }
 .bold-title {
   color: white;
+}
+.info-content {
+  float: left;
+  width: 50%;
 }
 .subtitle {
   color: white;

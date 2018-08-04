@@ -5,6 +5,7 @@ theme                   = "introduction"
 enforce_ssl             = false
 builddrafts             = false                             # Include pages with draft status of true
 canonifyurls            = true                              # Turns relative urls into absolute urls
+hasCJKLanguage          = true
 # disqusshortname       = "xxx"                             # Enable Disqus for comments
 googleAnalytics       = "UA-121881442-1"
 
@@ -30,9 +31,11 @@ googleAnalytics       = "UA-121881442-1"
     customCSS           = ["css/override.css"]                                # Include custom css files e.g. ["css/foo.css", "css/bar.css"]
 
     showBlog            = true                              # Show Blog section on home page
+    showNews            = true
+    newsColumns         = "3"                               # Choose "2" or "3" columns for projects section
     showProjects        = true                              # Show Projects section on home page
     projectColumns      = "3"                               # Choose "2" or "3" columns for projects section
-    placeHolderimg      = "/img/avatar.jpg"                # For Projects without image
+    placeHolderimg      = "/img/site_top.JPG"                # For Projects without image
     showAllPosts        = false                             # Set 'true' to list all posts on home page, or set 'false' to link to separate blog list page
     showLatest          = true                              # Show latest blog post summary
     shareButtons        = true                              # On post pages, show share this social buttons

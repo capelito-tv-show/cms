@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>/projects/comingsoon/</loc>
+    <lastmod>2017-03-09T13:23:28+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog/%E5%87%BA%E5%B1%95%E8%80%85%E7%B7%A0%E3%82%81%E5%88%87%E3%82%8A%E3%81%AE%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B/</loc>
+    <lastmod>2018-06-10T15:29:17+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog/%E6%98%A0%E8%BA%AB%E5%B1%952019%E5%87%BA%E5%B1%95%E8%80%85%E5%8B%9F%E9%9B%86/</loc>
+    <lastmod>2018-05-26T01:29:12+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/contact/</loc>
+    <lastmod>2017-03-09T13:23:28+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/about/</loc>
+    <lastmod>2017-03-09T13:19:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/infomation/</loc>
+    <lastmod>2017-03-09T13:19:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog/</loc>
+    <lastmod>2018-06-10T15:29:17+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/projects/</loc>
+    <lastmod>2017-03-09T13:23:28+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2017-03-09T13:23:28+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

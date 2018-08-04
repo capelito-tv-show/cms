@@ -35,6 +35,9 @@
         {{ if .Site.Params.showBlog }}
         <a class="nav-item" href="#blog">ニュース・出展情報</a>
         {{ end }}
+        {{ if .Site.Params.showNews }}
+        <a class="nav-item" href="#news">ブログ</a>
+        {{ end }}
         <a class="nav-item" href="#contact">お問い合わせ</a>
 
     </nav>
@@ -52,11 +55,11 @@
       <h2 class="title is-3 has-text-centered">映身展とは</h2>
 
           <div class="columns"><!-- Avatar and about.md side by side except mobile -->
-              {{ if .Site.Params.avatar }}
+              <!-- {{ if .Site.Params.avatar }}
               <div class="column is-one-third has-text-centered">
                 <img class="img-responsive avatar" src="/{{ .Site.Params.avatar }}" alt="映身展とは">
               </div>
-              {{ end }}
+              {{ end }} -->
               <div class="column markdown">
                   {{ range .Data.Pages }}
                       {{if eq .Title "About" }}
@@ -76,11 +79,16 @@
     <div class="container">
     <h2 class="title is-3 has-text-centered">基本情報</h2>
         <div class="column markdown">
+          <div class="info-content">
             {{ range .Data.Pages }}
                 {{if eq .Title "Infomation" }}
                         {{.Content}}
                     {{end}}
                 {{ end }}
+          </div>
+          <div class="info-image">
+            <img src="../img/map.png" style="width: 30%;box-shadow:none;border:none;" class="info-image" ></img >
+          </div>
         </div>
     </div><!-- End About container-->
 
@@ -108,6 +116,16 @@
 
     <div class="container"><hr></div>
     {{ end }}
+
+  <!-- Now for some cool projects -->
+      {{ if .Site.Params.showNews }}
+      <div class="section" id="news">
+          {{ partial "newssection.html" . }}
+      </div><!-- End Projects section -->
+
+      <div class="container"><hr></div>
+      {{ end }}
+
 
 
 
@@ -173,14 +191,14 @@ $('a[href^="#"]').click(function(e) {
 });
 </script>
 <script>
-  if (window.netlifyIdentity) {
-    window.netlifyIdentity.on("init", user => {
-      if (!user) {
-        window.netlifyIdentity.on("login", () => {
-          document.location.href = "/admin/";
-        });
-      }
-    });
-  }
+if (window.netlifyIdentity) {
+  window.netlifyIdentity.on("init", user => {
+    if (!user) {
+      window.netlifyIdentity.on("login", () => {
+        document.location.href = "/admin/";
+      });
+    }
+  });
+}
 </script>
 </body>

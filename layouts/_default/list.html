@@ -36,6 +36,19 @@
         </div>
         <!-- End Blog container -->
 
+        <div class="container">
+            <!-- Begin Blog container -->
+            <ul>
+                <!-- Ranges through content/post/*.md -->
+                {{ range .Data.Pages.ByPublishDate }} {{ if not (eq .Section "news") }}
+                <li>
+                    <a href="{{.Permalink}}">{{.Date.Format (.Site.Params.dateform | default "Jan 02, 2006") }} | {{.Title}}</a>
+                </li>
+                {{ end }} {{ end }}
+            </ul>
+        </div>
+
+
         <div class="container has-text-centered top-pad">
             <hr>
             <a href="{{ .Permalink }}#top">
@@ -52,14 +65,17 @@
 
 <!-- Bitty scrolling links script -->
 <script>
-    $('a[href^="{{ .Permalink }}#"]').click(function (e) {
-        e.preventDefault();
-        var target = this.hash;
-        $('html, body').animate({
-            scrollTop: $(target).offset().top
-        }, 500);
-        return false;
-    })
+$('a[href^="{{ .Permalink }}#"]').click(function(e) {
+  e.preventDefault();
+  var target = this.hash;
+  $("html, body").animate(
+    {
+      scrollTop: $(target).offset().top
+    },
+    500
+  );
+  return false;
+});
 </script>
 
 </body>

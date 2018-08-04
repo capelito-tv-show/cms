@@ -121,6 +121,19 @@ ga('send', 'pageview');
         </div>
         
 
+        <div class="container">
+            
+            <ul>
+                
+                 
+                <li>
+                    <a href="/projects/comingsoon/">Mar 9, 2017 | comingsoon....</a>
+                </li>
+                 
+            </ul>
+        </div>
+
+
         <div class="container has-text-centered top-pad">
             <hr>
             <a href="/projects/#top">
@@ -144,14 +157,17 @@ ga('send', 'pageview');
 
 
 <script>
-    $('a[href^="\/projects\/#"]').click(function (e) {
-        e.preventDefault();
-        var target = this.hash;
-        $('html, body').animate({
-            scrollTop: $(target).offset().top
-        }, 500);
-        return false;
-    })
+$('a[href^="\/projects\/#"]').click(function(e) {
+  e.preventDefault();
+  var target = this.hash;
+  $("html, body").animate(
+    {
+      scrollTop: $(target).offset().top
+    },
+    500
+  );
+  return false;
+});
 </script>
 
 </body>
