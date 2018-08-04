@@ -102,6 +102,9 @@ ga('send', 'pageview');
         
         <a class="nav-item" href="#blog">ニュース・出展情報</a>
         
+        
+        <a class="nav-item" href="#news">ブログ</a>
+        
         <a class="nav-item" href="#contact">お問い合わせ</a>
 
     </nav>
@@ -120,10 +123,6 @@ ga('send', 'pageview');
 
           <div class="columns">
               
-              <div class="column is-one-third has-text-centered">
-                <img class="img-responsive avatar" src="/img/avatar.jpg" alt="映身展とは">
-              </div>
-              
               <div class="column markdown">
                   
                       
@@ -135,9 +134,11 @@ ga('send', 'pageview');
                       
                       
                       
+                      
+                      
                               <!-- ### 映身展とは -->
 
-<p>今年度で4回目の開催となる『映身展』は、立教大学 現代心理学部 映像身体学科（通称：映身）に所属する学生の有志によるプロジェクトです。<br>
+<p>今年度で 4 回目の開催となる『映身展』は、立教大学 現代心理学部 映像身体学科（通称：映身）に所属する学生の有志によるプロジェクトです。<br>
 映像 × 写真 × 演劇 × 舞踊 × 哲学など、映身生が制作した作品を学内外に向けて発信することを主な目的としています。</p>
 
                           
@@ -157,7 +158,10 @@ ga('send', 'pageview');
     <div class="container">
     <h2 class="title is-3 has-text-centered">基本情報</h2>
         <div class="column markdown">
+          <div class="info-content">
             
+                
+                
                 
                 
                 
@@ -177,13 +181,17 @@ ga('send', 'pageview');
 
 <p>【時間】未定</p>
 
-<p>【会場】<a href="https://www.gankagarou.com/">新宿眼科画廊</a></p>
+<!-- 【会場】[新宿眼科画廊](https://www.gankagarou.com/)
 
-<p>【会場見取り図】
-<img src="/img/map.png" alt="会場見取り図" /></p>
+【会場見取り図】
+![会場見取り図](/img/map.png) -->
 
                     
                 
+          </div>
+          <div class="info-image">
+            <img src="../img/map.png" style="width: 30%;box-shadow:none;border:none;" class="info-image" ></img >
+          </div>
         </div>
     </div>
 
@@ -204,8 +212,7 @@ ga('send', 'pageview');
     <div class="summary">Jun 10, 2018
         <h3 class="title is-3 latest-post-title"><a href="/blog/%E5%87%BA%E5%B1%95%E8%80%85%E7%B7%A0%E3%82%81%E5%88%87%E3%82%8A%E3%81%AE%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B/">出展者締め切りのお知らせ</a></h3>
             <div class="markdown">
-            6月10日をもちまして出展募集を締め切りました。
-多数のご応募ありがとうございました。
+            6月10日をもちまして出展募集を締め切りました。 多数のご応募ありがとうございました。
             
             </div>
     </div>
@@ -254,7 +261,7 @@ ga('send', 'pageview');
                         </div>
                 </div>
             </div>
-                       
+                         
     </div>
 </div>
 </div>
@@ -291,7 +298,7 @@ $('#closecomingsoon....').click(
   }
 );
 </script>
-            
+              
 
 
 <div class="container has-text-centered top-pad">
@@ -305,6 +312,44 @@ $('#closecomingsoon....').click(
     <div class="container"><hr></div>
     
 
+  
+      
+      <div class="section" id="news">
+          <div class="container">
+
+
+<h2 class="title is-3 has-text-centered">ブログ</h2>
+    <div class="column is-one-third">
+    
+    <div class="summary">May 26, 2018
+        <h3 class="title is-4 latest-post-title"><a href="/news/%E6%98%A0%E8%BA%AB%E5%B1%952019%E5%87%BA%E5%B1%95%E8%80%85%E5%8B%9F%E9%9B%86/">映身展2019出展者募集</a></h3>
+        
+            <img src="/img/2018_03_26-1_22.jpg" class="img-responsive img-centered">
+        
+            <div class="markdown">
+            映身展とは 立教大学現代心理学部映像身体学科（通称：映身）に所属する学生の有志によるプロジェクトです。 映像 × 写真 × 演劇 × 舞踊 × 哲学など映像身体
+            
+            <a href="/news/%E6%98%A0%E8%BA%AB%E5%B1%952019%E5%87%BA%E5%B1%95%E8%80%85%E5%8B%9F%E9%9B%86/">...Read More</a>
+            
+            </div>
+    </div>
+    
+
+  </div>
+
+<div class="container has-text-centered top-pad"><a href="/news">ブログ一覧</a></div>
+
+
+</div>
+
+<div class="container has-text-centered top-pad"><a href="#top"><i class="fa fa-arrow-up"></i></a></div>
+
+      </div>
+
+      <div class="container"><hr></div>
+      
+
+
 
 
 
@@ -313,6 +358,8 @@ $('#closecomingsoon....').click(
     <h2 class="title is-3">お問い合わせ</h2>
         <div class="markdown">
             
+                
+                
                 
                 
                 
@@ -383,14 +430,14 @@ $('a[href^="#"]').click(function(e) {
 });
 </script>
 <script>
-  if (window.netlifyIdentity) {
-    window.netlifyIdentity.on("init", user => {
-      if (!user) {
-        window.netlifyIdentity.on("login", () => {
-          document.location.href = "/admin/";
-        });
-      }
-    });
-  }
+if (window.netlifyIdentity) {
+  window.netlifyIdentity.on("init", user => {
+    if (!user) {
+      window.netlifyIdentity.on("login", () => {
+        document.location.href = "/admin/";
+      });
+    }
+  });
+}
 </script>
 </body>

@@ -11,7 +11,7 @@ date: 2017-03-09T13:19:25+08:00
 
 【時間】未定
 
-【会場】[新宿眼科画廊](https://www.gankagarou.com/)
+<!-- 【会場】[新宿眼科画廊](https://www.gankagarou.com/)
 
 【会場見取り図】
-![会場見取り図](/img/map.png)
+![会場見取り図](/img/map.png) -->
