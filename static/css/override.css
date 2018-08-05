@@ -58,6 +58,16 @@ a.nav-item {
   box-shadow: none;
 }
 
+.red {
+  color: #fe4a79;
+}
+.blue {
+  color: #2ab7ca;
+}
+.yellow {
+  color: #fed766;
+}
+
 @media screen and (max-width: 768px) {
   .nav-item {
     padding: 5px;
