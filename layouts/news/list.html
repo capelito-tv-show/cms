@@ -4,7 +4,7 @@
 <div class="section" id="top"><!-- Parent section -->
 
     <div class="container hero {{ if .Site.Params.fadeIn | default true }}fade-in one{{ end }}"><!-- Begin Title -->
-    <h1 class="bold-title is-1">testestes</h1>
+    <h1 class="bold-title is-1">Column</h1>
     <!-- {{ .Site.Params.blogHead | default "ニュース" }} -->
     </div><!-- End Title -->
 
@@ -18,7 +18,7 @@
     <div class="container"><!-- Begin Blog container -->
 
     {{ if .Site.Params.showLatest }}
-    <h4 class="title top-pad">最新のニュース</h4>
+    <h4 class="title top-pad">最新のコラム</h4>
         {{ range first 1 (where .Data.Pages.ByPublishDate.Reverse "Section" "news") }}
         <div class="summary">{{ .Date.Format (.Site.Params.dateForm | default "Jan 02, 2006") }}
             <p class="title "><a href="{{ .RelPermalink }}">{{ .Title }}</a></p>

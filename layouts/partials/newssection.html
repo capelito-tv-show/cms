@@ -1,7 +1,7 @@
 <div class="container"><!-- Begin Blog container -->
 
 {{ if .Site.Params.showLatest }}
-<h2 class="title is-3 has-text-centered">ブログ</h2>
+<h2 class="title is-3 has-text-centered">コラム</h2>
     <div class="column is-one-third">
     {{ range first 1 (where .Data.Pages.ByPublishDate.Reverse "Section" "news") }}
     <div class="summary">{{ .Date.Format (.Site.Params.dateForm | default "Jan 02, 2006") }}
@@ -12,7 +12,7 @@
             <div class="markdown">
             {{ .Summary }}
             {{ if .Truncated }}
-            <a href="{{ .RelPermalink }}">...Read More</a>
+            <a href="{{ .RelPermalink }}">...さらに読む</a>
             {{ end }}
             </div>
     </div>
@@ -20,7 +20,7 @@
 {{ end }}
   </div>
 {{ if .Site.Params.showAllPosts }}
-<h2 class="title is-2 has-text-centered top-pad">全てのブログを閲覧</h2>
+<h2 class="title is-2 has-text-centered top-pad">全てのコラムを閲覧</h2>
     <ul>
     {{ range .Data.Pages.ByPublishDate }}
         {{ if eq .Section "news" }}
@@ -29,7 +29,7 @@
     {{ end }}
     </ul>
 {{ else }}
-<div class="container has-text-centered top-pad"><a href="/news">ブログ一覧</a></div>
+<div class="container has-text-centered top-pad"><a href="/news">コラム一覧</a></div>
 {{ end }}
 
 </div><!-- End Blog container -->

@@ -36,7 +36,7 @@
         <a class="nav-item" href="#blog">ニュース・出展情報</a>
         {{ end }}
         {{ if .Site.Params.showNews }}
-        <a class="nav-item" href="#news">ブログ</a>
+        <a class="nav-item" href="#column">コラム</a>
         {{ end }}
         <a class="nav-item" href="#contact">お問い合わせ</a>
 
@@ -119,7 +119,7 @@
 
   <!-- Now for some cool projects -->
       {{ if .Site.Params.showNews }}
-      <div class="section" id="news">
+      <div class="section" id="column">
           {{ partial "newssection.html" . }}
       </div><!-- End Projects section -->
 
