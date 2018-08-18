@@ -12,7 +12,9 @@
   height: auto;
   z-index: 1;
 }
-
+.summary{
+text-align: center;
+}
 .column {
   margin: 0 auto;
 }

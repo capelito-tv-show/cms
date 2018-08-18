@@ -1,7 +1,7 @@
 <div class="container"><!-- Begin Blog container -->
 
 {{ if .Site.Params.showLatest }}
-<h2 class="title is-3 has-text-centered">コラム</h2>
+<h2 class="title is-4 has-text-centered">コラム</h2>
     <div class="column is-one-third">
     {{ range first 1 (where .Data.Pages.ByPublishDate.Reverse "Section" "news") }}
     <div class="summary">{{ .Date.Format (.Site.Params.dateForm | default "Jan 02, 2006") }}
