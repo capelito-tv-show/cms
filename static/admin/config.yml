@@ -22,8 +22,6 @@ collections:
       - {label: "Category", name: "categories", widget: "list", required: false}
       - {label: "Tags", name: "tags", widget: "list", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
-
-collections:
   - name: "column"
     label: "コラム"
     folder: "content/news"
