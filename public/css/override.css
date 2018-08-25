@@ -46,8 +46,12 @@
 }
 .info-image {
   max-width: 100%;
+  box-shadow:none;
+  border:none;
 }
-
+.embed-map {
+  height: 350px;
+}
 .subtitle {
   color: white;
 }
@@ -107,12 +111,20 @@ a.nav-item {
   .info-image {
     max-width: 100%;
   }
+  .embed-map {
+    height: 200px;
+  }
   .markdown p {
     font-size: 14px;
     line-height: 1.6;
   }
+  .title.is-4 {
+    font-size: 18px;
+  }
 }
-
+#footer {
+  font-size: 11px; 
+}
 .blog-share a {
   color: black;
 }

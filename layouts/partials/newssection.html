@@ -22,14 +22,14 @@
   </div>
 </div>
 {{ if .Site.Params.showAllPosts }}
-<h2 class="title is-2 has-text-centered top-pad">全てのコラムを閲覧</h2>
-    <ul>
-    {{ range .Data.Pages.ByPublishDate }}
-        {{ if eq .Section "news" }}
-            {{ partial "column_list.html" . }}
+<h2 class="title is-4 has-text-centered top-pad">コラム</h2>
+    <div class="columns is-multiline">
+        {{ range .Data.Pages.ByPublishDate }}
+            {{ if eq .Section "news" }}
+                {{ partial "column_list.html" . }}
+            {{ end }}
         {{ end }}
-    {{ end }}
-    </ul>
+    </div>
 {{ else }}
 <div class="container has-text-centered top-pad"><a href="/news">コラム一覧</a></div>
 {{ end }}

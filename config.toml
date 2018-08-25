@@ -36,8 +36,8 @@ googleAnalytics       = "UA-121881442-1"
     showProjects        = true                              # Show Projects section on home page
     projectColumns      = "3"                               # Choose "2" or "3" columns for projects section
     placeHolderimg      = "/img/site_top.JPG"                # For Projects without image
-    showAllPosts        = false                             # Set 'true' to list all posts on home page, or set 'false' to link to separate blog list page
-    showLatest          = true                              # Show latest blog post summary
+    showAllPosts        = true                             # Set 'true' to list all posts on home page, or set 'false' to link to separate blog list page
+    showLatest          = false                              # Show latest blog post summary
     shareButtons        = true                              # On post pages, show share this social buttons
 
     # Share buttons

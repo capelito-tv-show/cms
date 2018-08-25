@@ -16,7 +16,7 @@
 {{ end }}
 
 {{ if .Site.Params.showAllPosts }}
-<h2 class="title is-2 has-text-centered top-pad">全てのニュース</h2>
+<h2 class="title is-4 has-text-centered top-pad">全てのニュース</h2>
     <ul>
     {{ range .Data.Pages.ByPublishDate }}
         {{ if eq .Section "blog" }}
