@@ -2,7 +2,10 @@
   object-fit: cover;
 }
 .section {
-  padding: 0.7rem;
+  padding: 36px 18px;
+}
+.summary {
+  text-align: center;
 }
 .video {
   position: fixed;
@@ -13,6 +16,9 @@
   width: auto;
   height: auto;
   z-index: 1;
+}
+.avatar {
+  max-width: 100%;
 }
 
 .column {
@@ -25,6 +31,9 @@
   background-size: cover;
   background-position: 50% 50%;
 }
+.summary {
+  padding-top: 36px;
+}
 .hero-body {
   padding-top: 15rem;
 }
@@ -35,6 +44,10 @@
   float: left;
   width: 50%;
 }
+.info-image {
+  max-width: 100%;
+}
+
 .subtitle {
   color: white;
 }
@@ -69,6 +82,9 @@ a.nav-item {
 }
 
 @media screen and (max-width: 768px) {
+  p :{
+    font-size: 12px;
+  }
   .nav-item {
     padding: 5px;
     font-size: 11px;
@@ -82,6 +98,18 @@ a.nav-item {
     background-attachment: fixed;
     background-size: cover;
     background-position: 50% 50%;
+  }
+  .info-content {
+      font-size: 14px;
+      float: left;
+      width: 100%;
+    }
+  .info-image {
+    max-width: 100%;
+  }
+  .markdown p {
+    font-size: 14px;
+    line-height: 1.6;
   }
 }
 

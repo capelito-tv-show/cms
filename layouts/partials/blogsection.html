@@ -20,7 +20,7 @@
     <ul>
     {{ range .Data.Pages.ByPublishDate }}
         {{ if eq .Section "blog" }}
-            {{ partial "li.html" . }}
+            {{ partial "blog_list.html" . }}
         {{ end }}
     {{ end }}
     </ul>

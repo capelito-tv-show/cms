@@ -6,10 +6,19 @@
     <description>Recent content in News on 映身展</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 26 May 2018 01:29:12 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 19 Aug 2018 09:10:56 +0900</lastBuildDate>
     
 	<atom:link href="/news/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>testetse</title>
+      <link>/news/testetse/</link>
+      <pubDate>Sun, 19 Aug 2018 09:10:56 +0900</pubDate>
+      
+      <guid>/news/testetse/</guid>
+      <description>testawtawtewa</description>
+    </item>
     
     <item>
       <title>映身展2019出展者募集</title>
