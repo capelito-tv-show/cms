@@ -1,5 +1,4 @@
 <div class="container"><!-- Begin Blog container -->
-
 {{ if .Site.Params.showLatest }}
 <h2 class="title is-4 has-text-centered">コラム</h2>
   <div class="columns is-multiline">
@@ -21,8 +20,12 @@
 {{ end }}
   </div>
 </div>
+
+<!--  -->
+<div class="container">
 {{ if .Site.Params.showAllPosts }}
 <h2 class="title is-4 has-text-centered top-pad">コラム</h2>
+    <div class="section is-small">
     <div class="columns is-multiline">
         {{ range .Data.Pages.ByPublishDate }}
             {{ if eq .Section "news" }}
@@ -30,10 +33,11 @@
             {{ end }}
         {{ end }}
     </div>
+    </div>
 {{ else }}
 <div class="container has-text-centered top-pad"><a href="/news">コラム一覧</a></div>
 {{ end }}
 
 </div><!-- End Blog container -->
-
 <div class="container has-text-centered top-pad"><a href="#top"><i class="fa fa-arrow-up"></i></a></div>
+
