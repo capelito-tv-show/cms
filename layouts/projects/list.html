@@ -34,23 +34,23 @@
             {{ end }}
             {{ end }}
 
-            <h4 class="title top-pad">1F展示フロア</h4>
+            <h4 class="title top-pad">出展者一覧</h4>
             <div class="tab_wrap">
-              <div class="tab_area">
+              <!-- <div class="tab_area">
                 <label class="tab_label active" for="tab1">写真</label>
                 <label class="tab2_label tab_label" for="tab2">文芸</label>
                 <label class="tab3_label tab_label" for="tab3">インスタレーション</label>
-              </div>
+              </div> -->
 
               <div class="panel_area">
-                <div id="panel1" class="tab_panel active">
+                <!-- <div id="panel1" class="tab_panel active"> -->
                     <div class="columns is-multiline">
                       {{ range .Data.Pages.ByPublishDate }}
                         {{ partial "projects-list.html" . }}
                       {{end}}
                     </div>
                 </div>
-                  <div id="panel2" class="tab_panel">
+                  <!-- <div id="panel2" class="tab_panel">
                       <div class="columns is-multiline">
                         {{ range .Data.Pages.ByPublishDate }}
                           {{ partial "projects-list.html" . }}
@@ -63,8 +63,8 @@
                         {{ partial "projects-list.html" . }}
                       {{end}}
                     </div>
-                  </div>
-                </div>
+                  </div> -->
+                <!-- </div> -->
           </div><!-- End Blog container -->
 
           <div class="container has-text-centered top-pad">
@@ -95,7 +95,7 @@
 </script>
 
      <!-- Bitty scrolling links script -->
-  <script>
+  <!-- <script>
   $(".tab_label").on("click", function() {
   var $th = $(this).index();
   $(".tab_label").removeClass("active");
@@ -105,7 +105,7 @@
     .eq($th)
     .addClass("active");
 });
-</script>
+</script> -->
 
 
 </body>
