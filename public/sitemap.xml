@@ -3,7 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/projects/comingsoon/</loc>
+    <loc>/projects/</loc>
+    <lastmod>2017-03-09T13:23:28+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/projects/test2/</loc>
+    <lastmod>2017-03-09T13:23:28+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/projects/test/</loc>
     <lastmod>2017-03-09T13:23:28+08:00</lastmod>
   </url>
   
@@ -54,19 +64,80 @@
   </url>
   
   <url>
+    <loc>/exhibitions/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/false/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/false/"
+                />
+  </url>
+  
+  <url>
+    <loc>/false/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/false/"
+                />
+  </url>
+  
+  <url>
+    <loc>/categories/new/</loc>
+    <lastmod>2017-03-09T13:23:28+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/news/</loc>
     <lastmod>2018-08-26T23:20:20+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/projects/</loc>
+    <loc>/performances/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/picture/</loc>
     <lastmod>2017-03-09T13:23:28+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/true/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/true/"
+                />
+  </url>
+  
+  <url>
+    <loc>/true/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/true/"
+                />
+  </url>
+  
+  <url>
+    <loc>/ua-121881442-1/</loc>
     <priority>0</priority>
   </url>
   

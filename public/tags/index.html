@@ -43,13 +43,6 @@
 
 
 
-<script>
-window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-ga('create', 'UA-121881442-1', 'auto');
-ga('send', 'pageview');
-</script>
-<script async src='//www.google-analytics.com/analytics.js'></script>
-
 
 
 
@@ -108,12 +101,22 @@ ga('send', 'pageview');
                 
             </article>
 
-
             <div class="container">
-                <div class="section tags-list">
+              <div class="columns is-multiline">
+                  <div class="column is-one-third">
                     
-                </div>
+                    
+                    
+                    
+                    
+                    
+                    
 
+                  </div>
+              </div>
+                <div class="section tags-list">
+
+                </div>
                 <div class="container has-text-centered top-pad">
                     <hr>
                     <a href="/tags/#top">
@@ -137,14 +140,16 @@ ga('send', 'pageview');
 
         
         <script>
-            $('a[href^="\/tags\/#"]').click(function (e) {
-                e.preventDefault();
-                var target = this.hash;
-                $('html, body').animate({
-                    scrollTop: $(target).offset().top
-                }, 500);
-                return false;
-            })
-        </script>
-
+        $('a[href^="\/tags\/#"]').click(function(e) {
+  e.preventDefault();
+  var target = this.hash;
+  $("html, body").animate(
+    {
+      scrollTop: $(target).offset().top
+    },
+    500
+  );
+  return false;
+});
+</script>
 </body>

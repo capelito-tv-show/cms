@@ -1,3 +1,50 @@
+.tab_wrap {
+  width: 100%;
+}
+.tab_area {
+  font-size: 0;
+  margin: 0 auto;
+}
+.tab_area label {
+  width: 150px;
+  margin: 0 5px;
+  display: inline-block;
+  padding: 12px 0;
+  color: #999;
+  background: #ddd;
+  text-align: center;
+  font-size: 13px;
+  cursor: pointer;
+  transition: ease 0.2s opacity;
+}
+.tab_area label:hover {
+  opacity: 0.5;
+}
+.panel_area {
+  background: #fff;
+}
+.tab_panel {
+  width: 100%;
+  padding: 80px 0;
+  display: none;
+}
+.tab_panel p {
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.tab_area label.active {
+  background: #fff;
+  color: #000;
+}
+.tab_panel.active {
+  display: block;
+}
+
+.markdown p {
+  line-height: 1.8;
+}
 .project-image {
   object-fit: cover;
 }
@@ -41,13 +88,13 @@
   color: white;
 }
 .info-content {
-  float: left;
-  width: 50%;
+  width: 100%;
+  text-align: center;
 }
 .info-image {
   max-width: 100%;
-  box-shadow:none;
-  border:none;
+  box-shadow: none;
+  border: none;
 }
 .embed-map {
   height: 350px;
@@ -86,7 +133,7 @@ a.nav-item {
 }
 
 @media screen and (max-width: 768px) {
-  p :{
+  p : {
     font-size: 12px;
   }
   .nav-item {
@@ -104,10 +151,10 @@ a.nav-item {
     background-position: 50% 50%;
   }
   .info-content {
-      font-size: 14px;
-      float: left;
-      width: 100%;
-    }
+    font-size: 14px;
+    float: left;
+    width: 100%;
+  }
   .info-image {
     max-width: 100%;
   }
@@ -123,7 +170,7 @@ a.nav-item {
   }
 }
 #footer {
-  font-size: 11px; 
+  font-size: 11px;
 }
 .blog-share a {
   color: black;

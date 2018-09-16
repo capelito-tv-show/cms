@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Picture on 映身展</title>
+    <link>/performances/picture/</link>
+    <description>Recent content in Picture on 映身展</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 09 Mar 2017 13:23:28 +0800</lastBuildDate>
+    
+	<atom:link href="/performances/picture/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>出集</title>
+      <link>/projects/performances/hoge/</link>
+      <pubDate>Thu, 09 Mar 2017 13:23:28 +0800</pubDate>
+      
+      <guid>/projects/performances/hoge/</guid>
+      <description>hguahgauhu</description>
+    </item>
+    
+    <item>
+      <title>出集</title>
+      <link>/projects/performances/tekito/</link>
+      <pubDate>Thu, 09 Mar 2017 13:23:28 +0800</pubDate>
+      
+      <guid>/projects/performances/tekito/</guid>
+      <description>hguahgauhu</description>
+    </item>
+    
+  </channel>
+</rss>

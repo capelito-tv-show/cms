@@ -23,14 +23,18 @@
                 {{ .Content }}
             </article>
 
-
             <div class="container">
-                <div class="section tags-list">
-                    {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
-                    <a class="tag-cloud" href="{{"tags/" | relLangURL }}{{ $name | urlize }}">{{ lower $name }} ({{ len $taxonomy }})</a>
+              <div class="columns is-multiline">
+                  <div class="column is-one-third">
+                    {{ range $name, $taxonomy := .Site.Taxonomies.categories }}
+                    <!-- <a class="tag-cloud" href="{{"categories/" | relLangURL }}{{ $name | urlize }}">{{ lower $name }} ({{ len $taxonomy }})</a> -->
                     {{ end }}
-                </div>
 
+                  </div>
+              </div>
+                <div class="section tags-list">
+
+                </div>
                 <div class="container has-text-centered top-pad">
                     <hr>
                     <a href="{{ .Permalink }}#top">
@@ -47,14 +51,16 @@
 
         <!-- Bitty scrolling links script -->
         <script>
-            $('a[href^="{{ .Permalink }}#"]').click(function (e) {
-                e.preventDefault();
-                var target = this.hash;
-                $('html, body').animate({
-                    scrollTop: $(target).offset().top
-                }, 500);
-                return false;
-            })
-        </script>
-
+        $('a[href^="{{ .Permalink }}#"]').click(function(e) {
+  e.preventDefault();
+  var target = this.hash;
+  $("html, body").animate(
+    {
+      scrollTop: $(target).offset().top
+    },
+    500
+  );
+  return false;
+});
+</script>
 </body>

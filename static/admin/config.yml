@@ -35,3 +35,13 @@ collections:
       - {label: "Category", name: "categories", widget: "list", required: false}
       - {label: "Tags", name: "tags", widget: "list", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
+  - name: "projects"
+    label: "出展者一覧"
+    folder: "content/projects"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Featured Image", name: "thumbnail", widget: "image"}
+      - {label: "Category", name: "categories", widget: "list", required: true}
+      - {label: "Body", name: "body", widget: "markdown"}

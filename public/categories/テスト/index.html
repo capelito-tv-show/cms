@@ -43,13 +43,6 @@
 
 
 
-<script>
-window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-ga('create', 'UA-121881442-1', 'auto');
-ga('send', 'pageview');
-</script>
-<script async src='//www.google-analytics.com/analytics.js'></script>
-
 
 
 
@@ -64,7 +57,7 @@ ga('send', 'pageview');
     
     <div class="container hero  fade-in one ">
         
-        <h1 class="bold-title is-1">Tagged "テスト"</h1>
+        <h1 class="">Tagged "テスト"</h1>
     </div>
     
 
@@ -107,17 +100,26 @@ ga('send', 'pageview');
             
         </article>
 
-
         <div class="container">
-            
-            <ul>
-                
-                
-                <li>
-                    <a href="/news/%E3%83%86%E3%82%B9%E3%83%88/">Aug 26, 2018 | テスト</a>
-                </li>
-                
-            </ul>
+          <div class="columns is-multiline">
+              
+              <div class="column is-half">
+                <div  id="projectE38386E382B9E38388"  class="card">
+                    <div class="card-image">
+                        <figure class="image is-3by2">
+                            <a >
+                                <img class="project-image" src="/img/logo.png">
+                            </a>
+                        </figure>
+                    </div>
+                    <div class="card-content has-text-centered top-pad">
+                      <a href="/news/%E3%83%86%E3%82%B9%E3%83%88/">テスト</a>
+                    </div>
+                </div>
+              </div>
+              
+              
+          </div>
         </div>
         
 
@@ -144,14 +146,17 @@ ga('send', 'pageview');
 
 
 <script>
-    $('a[href^="\/categories\/%E3%83%86%E3%82%B9%E3%83%88\/#"]').click(function (e) {
-        e.preventDefault();
-        var target = this.hash;
-        $('html, body').animate({
-            scrollTop: $(target).offset().top
-        }, 500);
-        return false;
-    })
+$('a[href^="\/categories\/%E3%83%86%E3%82%B9%E3%83%88\/#"]').click(function(e) {
+  e.preventDefault();
+  var target = this.hash;
+  $("html, body").animate(
+    {
+      scrollTop: $(target).offset().top
+    },
+    500
+  );
+  return false;
+});
 </script>
 
 </body>

@@ -5,7 +5,7 @@
     <!-- Parent section -->
     <div class="container hero {{ if .Site.Params.fadeIn }} fade-in one {{ end }}">
         <!-- Begin Title -->
-        <h1 class="bold-title is-1">Tagged "{{ lower .Title }}"</h1>
+        <h1 class="">Tagged "{{ lower .Title }}"</h1>
     </div>
     <!-- End Title -->
 
@@ -22,17 +22,26 @@
             {{ .Content }}
         </article>
 
-
         <div class="container">
-            <!-- Begin Blog container -->
-            <ul>
-                <!-- Ranges through content/post/*.md -->
-                {{ range .Data.Pages.ByPublishDate }}
-                <li>
-                    <a href="{{.Permalink}}">{{.Date.Format (.Site.Params.dateform | default "Jan 02, 2006") }} | {{.Title}}</a>
-                </li>
-                {{ end }}
-            </ul>
+          <div class="columns is-multiline">
+              {{ range .Data.Pages.ByPublishDate }}
+              <div class="column is-half">
+                <div {{ if not .Params.external_link }} id="project{{ $card := .Title | urlize }}{{ replace $card "%" ""}}" {{ end }} class="card">
+                    <div class="card-image">
+                        <figure class="image is-3by2">
+                            <a {{ if .Params.external_link }} href="{{ .Params.external_link }}" {{ end }}>
+                                <img class="project-image" src="{{ if .Params.image }}{{ .Params.image }}{{ else }}{{ .Site.Params.placeHolderimg | default "img/workday.jpg" }}{{ end }}">
+                            </a>
+                        </figure>
+                    </div>
+                    <div class="card-content has-text-centered top-pad">
+                      <a href="{{.Permalink}}">{{.Title}}</a>
+                    </div>
+                </div>
+              </div>
+              <!-- <a href="{{.Permalink}}">{{.Date.Format (.Site.Params.dateform | default "Jan 02, 2006") }} | {{.Title}}</a> -->
+              {{end}}
+          </div>
         </div>
         <!-- End Blog container -->
 
@@ -52,14 +61,17 @@
 
 <!-- Bitty scrolling links script -->
 <script>
-    $('a[href^="{{ .Permalink }}#"]').click(function (e) {
-        e.preventDefault();
-        var target = this.hash;
-        $('html, body').animate({
-            scrollTop: $(target).offset().top
-        }, 500);
-        return false;
-    })
+$('a[href^="{{ .Permalink }}#"]').click(function(e) {
+  e.preventDefault();
+  var target = this.hash;
+  $("html, body").animate(
+    {
+      scrollTop: $(target).offset().top
+    },
+    500
+  );
+  return false;
+});
 </script>
 
 </body>

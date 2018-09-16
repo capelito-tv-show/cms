@@ -2,6 +2,12 @@ baseurl                 = "/"   # Your domain name. Must end with "/"
 languageCode            = "en-us"
 title                   = "映身展"
 theme                   = "introduction"
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  performance = "performances"
+  exhibition = "exhibitions"
+
 enforce_ssl             = false
 builddrafts             = false                             # Include pages with draft status of true
 canonifyurls            = true                              # Turns relative urls into absolute urls
@@ -45,6 +51,7 @@ googleAnalytics       = "UA-121881442-1"
     shareFacebook       = true
     sharePinterest      = true
     shareGooglePlus     = false
+
 
 # Social icons appear in introduction and contact section. Add as many more as you like.
 # Find icon names here: http://fontawesome.io/cheatsheet/
