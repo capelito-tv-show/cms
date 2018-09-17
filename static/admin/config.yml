@@ -42,6 +42,6 @@ collections:
     slug: "{{slug}}"
     fields:
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Featured Image", name: "thumbnail", widget: "image"}
+      - {label: "Featured Image", name: "image", widget: "image"}
       - {label: "Category", name: "categories", widget: "list", required: true}
       - {label: "Body", name: "body", widget: "markdown"}

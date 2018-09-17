@@ -1,11 +1,12 @@
 <hr>
-<nav class="nav nav-center">
+<nav class="nav nav-center has-text-centered">
     <span id="nav-toggle" class="nav-toggle"  onclick="document.getElementById('nav-menu').classList.toggle('is-active');">
       <span></span>
       <span></span>
       <span></span>
+      <span></span>
     </span>
-    <div id="nav-menu" class="nav-left nav-menu">
+    <div id="nav-menu" class="nav-left nav-menu ">
       <span class="nav-item">
         <a style="color: #7a7a7a;" href="/">HOME</a>
       </span>
@@ -14,7 +15,7 @@
       </span>
       {{ with .Section }}
       <span class="nav-item">
-        <a style="color: #7a7a7a;" href="/{{ . }}">NEWSに戻る</a>
+        <a style="color: #7a7a7a;" href="/{{ . }}">{{ . }}へ戻る</a>
       </span>
       {{ end }}
       <span class="nav-item">

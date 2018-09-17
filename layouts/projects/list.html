@@ -13,15 +13,14 @@
 
           <div class="container">
             <!-- Begin Nav bar -->
-            {{ partial "nav-list.html" . }}
+            <!-- {{ partial "nav-list.html" . }} -->
+            {{ partial "projects-nav-list.html" . }}
           </div><!-- End Nav bar -->
 
           <div class="container">
             <!-- Begin Blog container -->
 
             {{ if .Site.Params.showLatest }}
-            <h4 class="title top-pad">最新のコラム</h4>
-            {{ range first 1 (where .Data.Pages.ByPublishDate.Reverse "Section" "projects") }}
             <div class="summary">{{ .Date.Format (.Site.Params.dateForm | default "Jan 02, 2006") }}
               <p class="title "><a href="{{ .RelPermalink }}">{{ .Title }}</a></p>
               <div class="markdown">
@@ -31,7 +30,6 @@
                 {{ end }}
               </div>
             </div>
-            {{ end }}
             {{ end }}
 
             <h4 class="title top-pad">出展者一覧</h4>

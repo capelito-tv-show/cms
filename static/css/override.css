@@ -1,3 +1,18 @@
+img {
+  border-radius: 0;
+  border: none;
+  box-shadow: none;
+}
+.image-wrapper {
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+}
+.content-wrapper {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 16px;
+}
 .tab_wrap {
   width: 100%;
 }
@@ -44,6 +59,17 @@
 
 .markdown p {
   line-height: 1.8;
+}
+.floor-title {
+}
+
+.floor-sub {
+  border: 1px solid black;
+  padding: 4px;
+}
+.sub-title {
+  font-size: 24px;
+  padding: 8px;
 }
 .project-image {
   object-fit: cover;

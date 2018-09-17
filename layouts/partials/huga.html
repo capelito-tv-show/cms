@@ -1,9 +1,13 @@
-{{ range sort .Pages }} {{ if eq .Section "projects" }} {{ if not .Params.external_link }}
 <div class="container">
     <!-- Begin Projects container -->
     <h2 class="title is-4 has-text-centered">出展者一覧</h2>
     <div class="section is-small ">
-        <h3 class="sub-title has-text-centered">展示フロア</h3>
+      <div class="floor-title">
+        <h3 class="sub-title">
+          <span class="floor-sub">1F</span>
+          展示フロア
+        </h3>
+       </div>
         <div class="columns is-multiline">
             <div class="column is-one-third">
             <!-- Hey Vicky, show half column if number is even. -->
@@ -27,7 +31,12 @@
       </div>
 
       <div class="section is-small ">
-        <h3 class="sub-title has-text-centered">上演・上映フロア</h3>
+        <div class="floor-title">
+          <h3 class="sub-title">
+            <span class="floor-sub">B1F</span>
+            上演・上映フロア
+          </h3>
+        </div>
           <div class="columns is-multiline">
             <div class="column is-one-third">
             <!-- Hey Vicky, show half column if number is even. -->
@@ -52,4 +61,3 @@
         </div>
   </div>
         <!-- End Projects container -->
-{{ end }} {{ end }} {{ end }}
