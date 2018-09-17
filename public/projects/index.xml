@@ -1,32 +1,50 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>ふが on 映身展</title>
+    <title>Projects on 映身展</title>
     <link>/projects/</link>
-    <description>Recent content in ふが on 映身展</description>
+    <description>Recent content in Projects on 映身展</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 09 Mar 2017 13:23:28 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 09 Mar 2017 13:23:28 +0700</lastBuildDate>
     
 	<atom:link href="/projects/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>ふが</title>
-      <link>/projects/test2/</link>
-      <pubDate>Thu, 09 Mar 2017 13:23:28 +0800</pubDate>
+      <title>ふがじゃない</title>
+      <link>/projects/test/</link>
+      <pubDate>Thu, 09 Mar 2017 13:23:28 +0700</pubDate>
       
-      <guid>/projects/test2/</guid>
+      <guid>/projects/test/</guid>
       <description>ghauhguahgi</description>
     </item>
     
     <item>
-      <title>ふがじゃない</title>
-      <link>/projects/test/</link>
+      <title>ふが</title>
+      <link>/projects/huga/</link>
       <pubDate>Thu, 09 Mar 2017 13:23:28 +0800</pubDate>
       
-      <guid>/projects/test/</guid>
+      <guid>/projects/huga/</guid>
       <description>ghauhguahgi</description>
+    </item>
+    
+    <item>
+      <title>ふが</title>
+      <link>/projects/m3/</link>
+      <pubDate>Thu, 09 Mar 2017 13:23:28 +0800</pubDate>
+      
+      <guid>/projects/m3/</guid>
+      <description>ghauhguahgi</description>
+    </item>
+    
+    <item>
+      <title>北吉 万由佳（キタヨシ マユカ）</title>
+      <link>/projects/%E5%8C%97%E5%90%89-%E4%B8%87%E7%94%B1%E4%BD%B3%E3%82%AD%E3%82%BF%E3%83%A8%E3%82%B7-%E3%83%9E%E3%83%A6%E3%82%AB/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/%E5%8C%97%E5%90%89-%E4%B8%87%E7%94%B1%E4%BD%B3%E3%82%AD%E3%82%BF%E3%83%A8%E3%82%B7-%E3%83%9E%E3%83%A6%E3%82%AB/</guid>
+      <description>ここにコンテンツを入力</description>
     </item>
     
   </channel>
