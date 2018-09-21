@@ -2,18 +2,12 @@
 <body>
 
 <div class="section" id="top"><!-- Parent section -->
-
-    <div class="container hero {{ if .Site.Params.fadeIn | default true }}fade-in one{{ end }}"><!-- Begin Title -->
-    <!-- <h1 class="bold-title is-1">{{ .Site.Params.blogHead | default "ニュース" }}</h1> -->
-    <h1 class="bold-title is-1">Column</h1>
-
-    </div><!-- End Title -->
-
-<!-- Everything below fades in two! -->
+    <!-- <div class="container hero {{ if .Site.Params.fadeIn | default true }}fade-in one{{ end }}">
+    <h1 class="bold-title is-1">作品プロセス</h1>
+    </div> -->
 <div class="section {{ if .Site.Params.fadeIn | default true }}fade-in two{{ end }}">
-
     <div class="container"><!-- Begin Nav bar -->
-    {{ partial "nav-single.html" . }}
+        {{ partial "nav-single.html" . }}
     </div><!-- End Nav bar -->
 
     <div class="container {{ if .Site.Params.fadeIn | default true }}fade-in two{{ end }}"><!-- Begin blog title container -->

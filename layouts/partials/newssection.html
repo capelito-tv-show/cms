@@ -1,6 +1,6 @@
 <div class="container"><!-- Begin Blog container -->
 {{ if .Site.Params.showLatest }}
-<h2 class="title is-4 has-text-centere">Columns</h2>
+<h2 class="title is-4 has-text-centere">作品プロセス</h2>
   <div class="columns is-multiline">
     <div class="column is-one-third">
     {{ range first 1 (where .Data.Pages.ByPublishDate.Reverse "Section" "news") }}
@@ -24,7 +24,7 @@
 <!--  -->
 <div class="container">
 {{ if .Site.Params.showAllPosts }}
-<h2 class="title is-4 has-text-centered top-pad">Columns</h2>
+<h2 class="title is-4 has-text-centered top-pad">作品プロセス</h2>
     <div class="section is-small has-text-centered">
     <div class="columns is-multiline">
         {{ range .Data.Pages.ByPublishDate }}
@@ -35,7 +35,7 @@
     </div>
     </div>
 {{ else }}
-<div class="container has-text-centered top-pad"><a href="/news">コラム一覧</a></div>
+<div class="container has-text-centered top-pad"><a href="/news">一覧</a></div>
 {{ end }}
 
 </div><!-- End Blog container -->

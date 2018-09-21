@@ -3,10 +3,10 @@
 
 <div class="section" id="top"><!-- Parent section -->
 
-    <div class="container hero {{ if .Site.Params.fadeIn | default true }}fade-in one{{ end }}"><!-- Begin Title -->
-    <h1 class="bold-title is-1">news</h1>
+    <!-- <div class="container hero {{ if .Site.Params.fadeIn | default true }}fade-in one{{ end }}">
+    <h1 class="bold-title is-1">ニュース</h1> -->
     <!-- {{ .Site.Params.blogHead | default "ニュース" }} -->
-    </div><!-- End Title -->
+    <!-- </div> -->
 
     <!-- Everything below fades in two! -->
     <div class="section no-padding {{ if .Site.Params.fadeIn | default true }}fade-in two{{ end }}">
@@ -32,7 +32,7 @@
         {{ end }}
     {{ end }}
 
-    <h4 class="title top-pad">一覧</h4>
+    <h4 class="title top-pad">ニュース</h4>
         <ul>
         {{ range .Data.Pages.ByPublishDate }}
             {{ if eq .Section "blog" }}

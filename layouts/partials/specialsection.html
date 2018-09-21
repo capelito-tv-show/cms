@@ -1,0 +1,43 @@
+<div class="container">
+    <!-- Begin Blog container -->
+    {{ if .Site.Params.showLatest }}
+    <h2 class="title is-4 has-text-centere">Special</h2>
+    <div class="columns is-multiline">
+        <div class="column is-one-third">
+            {{ range first 1 (where .Data.Pages.ByPublishDate.Reverse "Section" "news") }}
+            <div class="summary">{{ .Date.Format (.Site.Params.dateForm | default "Jan 02, 2006") }}
+                <h3 class="title is-4 latest-post-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+                {{ if .Params.image }}
+                <img src="{{ .Params.image }}" class="img-responsive img-centered">
+                {{ end }}
+                <div class="markdown">
+                    {{ .Summary }}
+                    {{ if .Truncated }}
+                    <a href="{{ .RelPermalink }}">...さらに読む</a>
+                    {{ end }}
+                </div>
+            </div>
+            {{ end }}
+            {{ end }}
+        </div>
+    </div>
+
+    <!--  -->
+    <div class="container">
+        {{ if .Site.Params.showAllPosts }}
+        <h2 class="title is-4 has-text-centered top-pad">Special</h2>
+        <div class="section is-small has-text-centered">
+            <div class="columns is-multiline">
+                {{ range .Data.Pages.ByPublishDate }}
+                {{ if eq .Section "special" }}
+                {{ partial "column_list.html" . }}
+                {{ end }}
+                {{ end }}
+            </div>
+        </div>
+        {{ else }}
+        <div class="container has-text-centered top-pad"><a href="/news">一覧</a></div>
+        {{ end }}
+
+    </div><!-- End Blog container -->
+    <div class="container has-text-centered top-pad"><a href="#top"><i class="fa fa-arrow-up"></i></a></div>

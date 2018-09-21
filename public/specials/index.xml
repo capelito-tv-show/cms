@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Specials on 映身展</title>
+    <link>/specials/</link>
+    <description>Recent content in Specials on 映身展</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 26 May 2018 01:29:12 +0900</lastBuildDate>
+    
+	<atom:link href="/specials/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>coming soon</title>
+      <link>/specials/commingsoon/</link>
+      <pubDate>Sat, 26 May 2018 01:29:12 +0900</pubDate>
+      
+      <guid>/specials/commingsoon/</guid>
+      <description>coming soon</description>
+    </item>
+    
+  </channel>
+</rss>

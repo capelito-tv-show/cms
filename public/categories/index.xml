@@ -11,6 +11,33 @@
     
     
     <item>
+      <title>Artculture</title>
+      <link>/categories/artculture/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/artculture/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dance</title>
+      <link>/categories/dance/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/dance/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Installation</title>
+      <link>/categories/installation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/installation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Movie</title>
       <link>/categories/movie/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -20,29 +47,20 @@
     </item>
     
     <item>
-      <title>New</title>
-      <link>/categories/new/</link>
-      <pubDate>Thu, 09 Mar 2017 13:23:28 +0700</pubDate>
-      
-      <guid>/categories/new/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Picture</title>
       <link>/categories/picture/</link>
-      <pubDate>Thu, 09 Mar 2017 13:23:28 +0800</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/categories/picture/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>テスト</title>
-      <link>/categories/%E3%83%86%E3%82%B9%E3%83%88/</link>
-      <pubDate>Sun, 26 Aug 2018 23:20:20 +0900</pubDate>
+      <title>Theater</title>
+      <link>/categories/theater/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/categories/%E3%83%86%E3%82%B9%E3%83%88/</guid>
+      <guid>/categories/theater/</guid>
       <description></description>
     </item>
     

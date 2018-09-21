@@ -6,19 +6,10 @@
     <description>Recent content in News on 映身展</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 26 Aug 2018 23:20:20 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 26 May 2018 01:29:12 +0900</lastBuildDate>
     
 	<atom:link href="/news/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>テスト</title>
-      <link>/news/%E3%83%86%E3%82%B9%E3%83%88/</link>
-      <pubDate>Sun, 26 Aug 2018 23:20:20 +0900</pubDate>
-      
-      <guid>/news/%E3%83%86%E3%82%B9%E3%83%88/</guid>
-      <description>テスト</description>
-    </item>
     
     <item>
       <title>coming soon</title>

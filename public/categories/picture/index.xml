@@ -6,27 +6,62 @@
     <description>Recent content in Picture on 映身展</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 09 Mar 2017 13:23:28 +0800</lastBuildDate>
     
 	<atom:link href="/categories/picture/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>ふが</title>
-      <link>/projects/huga/</link>
-      <pubDate>Thu, 09 Mar 2017 13:23:28 +0800</pubDate>
+      <title>ジョーサン愛歌</title>
+      <link>/projects/%E3%82%B8%E3%83%A7%E3%83%BC%E3%82%B5%E3%83%B3%E6%84%9B%E6%AD%8C/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/projects/huga/</guid>
-      <description>ghauhguahgi</description>
+      <guid>/projects/%E3%82%B8%E3%83%A7%E3%83%BC%E3%82%B5%E3%83%B3%E6%84%9B%E6%AD%8C/</guid>
+      <description>coming soon</description>
     </item>
     
     <item>
-      <title>ふが</title>
-      <link>/projects/m3/</link>
-      <pubDate>Thu, 09 Mar 2017 13:23:28 +0800</pubDate>
+      <title>保坂  早紀</title>
+      <link>/projects/%E4%BF%9D%E5%9D%82-%E6%97%A9%E7%B4%80/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/projects/m3/</guid>
-      <description>ghauhguahgi</description>
+      <guid>/projects/%E4%BF%9D%E5%9D%82-%E6%97%A9%E7%B4%80/</guid>
+      <description>coming soon</description>
+    </item>
+    
+    <item>
+      <title>原田 祐枝</title>
+      <link>/projects/%E5%8E%9F%E7%94%B0-%E7%A5%90%E6%9E%9D/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/%E5%8E%9F%E7%94%B0-%E7%A5%90%E6%9E%9D/</guid>
+      <description>coming soon</description>
+    </item>
+    
+    <item>
+      <title>安西 亜子</title>
+      <link>/projects/%E5%AE%89%E8%A5%BF-%E4%BA%9C%E5%AD%90/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/%E5%AE%89%E8%A5%BF-%E4%BA%9C%E5%AD%90/</guid>
+      <description>coming soon</description>
+    </item>
+    
+    <item>
+      <title>松本 誠舟</title>
+      <link>/projects/%E6%9D%BE%E6%9C%AC-%E8%AA%A0%E8%88%9F/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/%E6%9D%BE%E6%9C%AC-%E8%AA%A0%E8%88%9F/</guid>
+      <description>coming soon</description>
+    </item>
+    
+    <item>
+      <title>金井 素美</title>
+      <link>/projects/%E9%87%91%E4%BA%95-%E7%B4%A0%E7%BE%8E/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/%E9%87%91%E4%BA%95-%E7%B4%A0%E7%BE%8E/</guid>
+      <description>coming soon</description>
     </item>
     
   </channel>

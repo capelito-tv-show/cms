@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dance on 映身展</title>
+    <link>/categories/dance/</link>
+    <description>Recent content in Dance on 映身展</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/categories/dance/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>二階 美羽</title>
+      <link>/projects/%E4%BA%8C%E9%9A%8E-%E7%BE%8E%E7%BE%BD/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/%E4%BA%8C%E9%9A%8E-%E7%BE%8E%E7%BE%BD/</guid>
+      <description>coming soon</description>
+    </item>
+    
+    <item>
+      <title>岩城 かのこ</title>
+      <link>/projects/%E5%B2%A9%E5%9F%8E-%E3%81%8B%E3%81%AE%E3%81%93/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/%E5%B2%A9%E5%9F%8E-%E3%81%8B%E3%81%AE%E3%81%93/</guid>
+      <description>coming soon</description>
+    </item>
+    
+    <item>
+      <title>杉本 葵</title>
+      <link>/projects/%E6%9D%89%E6%9C%AC-%E8%91%B5/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/%E6%9D%89%E6%9C%AC-%E8%91%B5/</guid>
+      <description>coming soon</description>
+    </item>
+    
+    <item>
+      <title>米田 琴音</title>
+      <link>/projects/%E7%B1%B3%E7%94%B0-%E7%90%B4%E9%9F%B3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/%E7%B1%B3%E7%94%B0-%E7%90%B4%E9%9F%B3/</guid>
+      <description>coming soon</description>
+    </item>
+    
+    <item>
+      <title>豊田 ゆり佳</title>
+      <link>/projects/%E8%B1%8A%E7%94%B0-%E3%82%86%E3%82%8A%E4%BD%B3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/%E8%B1%8A%E7%94%B0-%E3%82%86%E3%82%8A%E4%BD%B3/</guid>
+      <description>coming soon</description>
+    </item>
+    
+    <item>
+      <title>遠藤 七海</title>
+      <link>/projects/%E9%81%A0%E8%97%A4-%E4%B8%83%E6%B5%B7/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/%E9%81%A0%E8%97%A4-%E4%B8%83%E6%B5%B7/</guid>
+      <description>coming soon</description>
+    </item>
+    
+  </channel>
+</rss>

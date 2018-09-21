@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Theater on 映身展</title>
+    <link>/categories/theater/</link>
+    <description>Recent content in Theater on 映身展</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/categories/theater/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>加藤 幹人</title>
+      <link>/projects/%E5%8A%A0%E8%97%A4-%E5%B9%B9%E4%BA%BA/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/%E5%8A%A0%E8%97%A4-%E5%B9%B9%E4%BA%BA/</guid>
+      <description>coming soon</description>
+    </item>
+    
+    <item>
+      <title>我妻 直弥</title>
+      <link>/projects/%E7%9F%B3%E5%A1%9A%E7%9C%9F%E5%B8%86/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/%E7%9F%B3%E5%A1%9A%E7%9C%9F%E5%B8%86/</guid>
+      <description>coming soon</description>
+    </item>
+    
+    <item>
+      <title>浅野井 瑞季</title>
+      <link>/projects/%E6%88%91%E5%A6%BB-%E7%9B%B4%E5%BC%A5/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/%E6%88%91%E5%A6%BB-%E7%9B%B4%E5%BC%A5/</guid>
+      <description>coming soon</description>
+    </item>
+    
+  </channel>
+</rss>
