@@ -90,6 +90,7 @@ img {
     font-size: 18px;
   }
 }
+
 .project-image {
   object-fit: cover;
 }
@@ -117,7 +118,7 @@ img {
   margin: 0 auto;
 }
 .hero {
-  background-image: url("../img/site_top.JPG");
+  background: url("../img/site_top.JPG") no-repeat fixed;
   top: 0;
   left: 0;
   width: 100%;
@@ -127,8 +128,7 @@ img {
   padding:0 0 0 0;
   content: “”;
   z-index: -1;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-attachment: scroll;
   background-size: cover;
   background-position: 50% 50%;
 }
@@ -200,8 +200,7 @@ a.nav-item {
   }
   .hero {
     background-image: url("../img/site_top.JPG");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-size: cover;
     background-position: 50% 50%;
   }
