@@ -29,7 +29,7 @@
         <div class="section is-small has-text-centered">
             <div class="columns is-multiline">
                 {{ range .Data.Pages.ByPublishDate }}
-                {{ if eq .Section "special" }}
+                {{ if eq .Section "specials" }}
                 {{ partial "column_list.html" . }}
                 {{ end }}
                 {{ end }}
