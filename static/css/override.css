@@ -13,6 +13,7 @@ img {
   margin: 0 auto;
   padding: 16px;
 }
+
 .tab_wrap {
   width: 100%;
 }
@@ -82,6 +83,9 @@ img {
     text-align: center;
   }
 
+  .embed-map {
+    margin-bottom: 37px;
+  }
   .card-content a {
     font-size: 18px;
   }
@@ -133,7 +137,8 @@ img {
   text-align: center;
 }
 .info-image {
-  max-width: 100%;
+  max-width: 300px;
+  margin: 0 auto;
   box-shadow: none;
   border: none;
 }
