@@ -46,7 +46,7 @@ collections:
       - {label: "Category", name: "categories", widget: "list", required: true}
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "special"
-      label: "special""
+      label: "special"
       folder: "content/specials"
       create: true
       slug: "{{slug}}"
