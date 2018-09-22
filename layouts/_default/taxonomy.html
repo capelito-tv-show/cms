@@ -30,7 +30,7 @@
                 <div {{ if not .Params.external_link }} id="project{{ $card := .Title | urlize }}{{ replace $card "%" ""}}" {{ end }} class="card">
                     <div class="card-image">
                         <figure class="image is-3by2">
-                            <a {{ if .Params.external_link }} href="{{ .Params.external_link }}" {{ end }}>
+                            <a href="{{.Permalink}}" >
                                 <img class="project-image" src="{{ if .Params.image }}{{ .Params.image }}{{ else }}{{ .Site.Params.placeHolderimg | default "img/workday.jpg" }}{{ end }}">
                             </a>
                         </figure>

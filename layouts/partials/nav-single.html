@@ -10,16 +10,16 @@
       <span class="nav-item">
         <a style="color: #7a7a7a;" href="/">HOME</a>
       </span>
-      <span class="nav-item">
-        <a style="color: #7a7a7a;" href="/#about">映身展とは</a>
-      </span>
       {{ with .Section }}
       <span class="nav-item">
         <a style="color: #7a7a7a;" href="/{{ . }}">{{ . }}へ戻る</a>
       </span>
       {{ end }}
       <span class="nav-item">
-        <a style="color: #7a7a7a;" href="/#contact">問い合わせ</a>
+        <a style="color: #7a7a7a;" href="/blog">News</a>
+      </span>
+      <span class="nav-item">
+        <a style="color: #7a7a7a;" href="/news">Columns</a>
       </span>
     {{ if .Site.RSSLink }}
       <span class="nav-item">
