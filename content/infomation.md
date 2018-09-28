@@ -16,7 +16,8 @@ date: 2017-03-09T13:19:25+08:00
 展示・関連WS・講評会・交流会など
 ***
 【お問い合わせ】  
-email: eishinten2019@gmail.com
+email:  
+eishinten2019@gmail.com
 ***
 【アクセス】  
 JR新宿駅東口より徒歩12分  
