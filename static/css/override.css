@@ -3,6 +3,10 @@ img {
   border: none;
   box-shadow: none;
 }
+.markdown hr {
+  display: none;
+}
+
 .image-wrapper {
   max-width: 700px;
   margin: 0 auto;
@@ -63,9 +67,9 @@ img {
 
 .markdown p {
   line-height: 1.8;
+  font-size: 14px;
 }
-.floor-title {
-}
+
 
 .floor-sub {
   border: 1px solid black;
@@ -193,6 +197,9 @@ a.nav-item {
 @media screen and (max-width: 768px) {
   p : {
     font-size: 12px;
+  }
+  .markdown hr {
+    display: block;
   }
   .nav-item {
     padding: 5px;
