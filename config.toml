@@ -1,5 +1,5 @@
 baseurl                 = "/"   # Your domain name. Must end with "/"
-languageCode            = "en-us"
+languageCode            = "ja-jp"
 title                   = "映身展"
 theme                   = "introduction"
 [taxonomies]
