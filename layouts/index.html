@@ -12,7 +12,7 @@
             <!-- <h1 class="bold-title {{ if .Site.Params.fadeIn | default true }}fade-in one{{ end }}">
                 {{ .Site.Params.firstName | default "Introduction" }}
             </h1> -->
-            <h3 class="subtitle is-4 {{ if .Site.Params.fadeIn | default true }}fade-in two{{ end }}">
+            <h3 class="subtitle is-4 {{ if .Site.Params.fadeIn | default true }}fade-in two{{ end }}" >
                 {{ .Site.Params.tagLine }}
             </h3>
             <!-- End title and tagline -->
@@ -56,12 +56,12 @@
       <h2 class="title is-4 has-text-centered">About</h2>
 
           <div class="columns"><!-- Avatar and about.md side by side except mobile -->
-              {{ if .Site.Params.avatar }}
+              <!-- {{ if .Site.Params.avatar }}
               <div class="column is-one-third has-text-centered">
                 <img class="img-responsive avatar" src="/{{ .Site.Params.avatar }}" alt="映身展とは">
               </div>
-              {{ end }}
-              <div class="column markdown">
+              {{ end }} -->
+              <div class="column markdown" style="max-width: 700px;">
                   {{ range .Data.Pages }}
                       {{if eq .Title "About" }}
                               {{.Content}}

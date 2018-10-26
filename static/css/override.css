@@ -1,3 +1,6 @@
+.hero-body h3 {
+  margin-top: 4rem;
+}
 img {
   border-radius: 0;
   border: none;
@@ -132,7 +135,7 @@ a.nav-item:hover::after {
   object-fit: cover;
 }
 .section {
-  padding: 36px 18px;
+  padding: 36px 8px;
 }
 .summary {
   text-align: center;
@@ -174,6 +177,9 @@ a.nav-item:hover::after {
 }
 .hero-body {
   padding-top: 15rem;
+}
+.hero-body.container.subtitle {
+  margin-top: 0rem;
 }
 .bold-title {
   color: white;
