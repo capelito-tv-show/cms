@@ -29,15 +29,15 @@
     <nav class="nav-center">
         <!-- <a class="nav-item" href="#about">映身展とは</a> -->
         <a class="nav-item" style="color: white;" href="#about">About</a>
+        {{ if .Site.Params.showNews }}
+        <a class="nav-item" style="color: white;" href="#projects">Projects</a>
+        {{ end }}
         <!-- {{ if .Site.Params.showProjects }}
         <a class="nav-item" style="color: white;" href="#projects">ニュース・出展者情報</a>
         {{ end }} -->
         <a class="nav-item" style="color: white;" href="#information">Information</a>
         {{ if .Site.Params.showBlog }}
         <a class="nav-item" style="color: white;" href="#blog">News</a>
-        {{ end }}
-        {{ if .Site.Params.showNews }}
-        <a class="nav-item" style="color: white;" href="#projects">Projects</a>
         {{ end }}
         
 
@@ -48,8 +48,6 @@
 
 <!-- Everything below fades in three! -->
 <div class="section no-padding {{ if .Site.Params.fadeIn | default true }}fade-in three{{ end }}">
-
-
   <!-- Tell them all about it! -->
   <div class="section" id="about">
       <div class="container">
@@ -70,11 +68,19 @@
               </div>
           </div>
       </div><!-- End About container-->
-
   <div class="container has-text-centered top-pad"><a href="#top"><i class="fa fa-arrow-up"></i></a></div>
-  </div><!-- End About section -->
+  </div>  
+<!-- End About section -->
 <div class="container"><hr></div>
-<!-- Tell them all about it! -->
+
+<!-- Now for some cool projects -->
+<div class="section" id="projects">
+    {{ partial "huga.html" . }}
+</div><!-- End Projects section -->
+
+<div class="container"><hr></div>
+
+<!-- Tell them all information it! -->
 <div class="section" id="information">
     <div class="container">
         <h2 class="title is-4 has-text-centered">Information</h2>
@@ -98,16 +104,7 @@
             </div>
         </div>
     </div>
-    <!-- End About container-->
-<!-- <div class="container has-text-centered top-pad">
-    <a href="#top">
-        <i class="fa fa-arrow-up"></i>
-    </a>
-</div> -->
-<!-- End About section -->
-
-
-
+<!-- End infomation section -->
     <div class="container has-text-centered top-pad">
         <a href="#top">
             <i class="fa fa-arrow-up"></i>
@@ -118,20 +115,16 @@
 
 <div class="container"><hr></div>
 
+    <div class="container"><hr></div>
+
+
 <!-- Let's show some blog posts -->
     {{ if .Site.Params.showBlog }}
-    <div class="section" id="blog">
-        {{ partial "blogsection.html" . }}
-    </div><!-- End Blog section -->
-
-    <div class="container"><hr></div>
+        <div class="section" id="blog">
+            {{ partial "blogsection.html" . }}
+        </div><!-- End Blog section -->
     {{ end }}
 
-
-<!-- Now for some cool projects -->
-    <div class="section" id="projects">
-        {{ partial "huga.html" . }}
-    </div><!-- End Projects section -->
     <div class="container"><hr></div>
 
   <!-- Now for some cool projects -->
@@ -142,8 +135,6 @@
 
       <div class="container"><hr></div>
       {{ end }}
-
-
     <div class="section" id="special">
         {{ partial "specialsection.html" . }}
     </div><!-- End Projects section -->
