@@ -8,7 +8,7 @@
     <div class="hero-body">
         <div class="container has-text-centered">
             <!-- Title and tagline -->
-            <img src="../img/logo.png" style="width: 30%;box-shadow:none;border:none;" class="top-logo" ></img >
+            <img src="../img/logo_big.png" style="width: 30%;box-shadow:none;border:none;" class="top-logo" ></img >
             <!-- <h1 class="bold-title {{ if .Site.Params.fadeIn | default true }}fade-in one{{ end }}">
                 {{ .Site.Params.firstName | default "Introduction" }}
             </h1> -->
@@ -76,7 +76,8 @@
 <!-- Now for some cool projects -->
 <div class="section" id="projects">
     {{ partial "huga.html" . }}
-</div><!-- End Projects section -->
+</div>
+<!-- End Projects section -->
 
 <div class="container"><hr></div>
 
@@ -114,9 +115,6 @@
 <!-- End About section -->
 
 <div class="container"><hr></div>
-
-    <div class="container"><hr></div>
-
 
 <!-- Let's show some blog posts -->
     {{ if .Site.Params.showBlog }}
