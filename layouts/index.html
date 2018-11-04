@@ -30,9 +30,9 @@
     <hr>
     <nav class="nav-center">
         <!-- <a class="nav-item" href="#about">映身展とは</a> -->
-        <a class="nav-item" style="color: white;" href="#about">About<br /><span style="font-size:10px;text-align: center;">映身展とは</span></a>
+        <a class="nav-item" style="color: white;" href="#about">About</a>
         {{ if .Site.Params.showNews }}
-        <a class="nav-item" style="color: white;" href="#projects">Projects<br /><span style="font-size:10px;text-align: center;">出展者紹介</span></a>
+        <a class="nav-item" style="color: white;" href="#projects">Projects</a>
         {{ end }}
         <!-- {{ if .Site.Params.showProjects }}
         <a class="nav-item" style="color: white;" href="#projects">ニュース・出展者情報</a>
@@ -40,6 +40,8 @@
         <a class="nav-item" style="color: white;" href="#information">Information</a>
         {{ if .Site.Params.showBlog }}
         <a class="nav-item" style="color: white;" href="#blog">News</a>
+        <a class="nav-item" style="color: white;" href="#special">special</a>
+        <a class="nav-item" style="color: white;" href="#columns">columns</a>
         {{ end }}
         
 
@@ -53,7 +55,12 @@
   <!-- Tell them all about it! -->
   <div class="section" id="about">
       <div class="container">
-      <h2 class="title is-4 has-text-centered">About</h2>
+          <div class="marker-img">
+            <h2 class="title is-4 has-text-centered" style="line-height: 16px;">
+                About<br />
+                <span style="font-size:12px;text-align: center;">映身展とは</span>
+            </h2>
+          </div>
 
           <div class="columns"><!-- Avatar and about.md side by side except mobile -->
               <!-- {{ if .Site.Params.avatar }}
@@ -89,7 +96,9 @@
 <!-- Tell them all information it! -->
 <div class="section" id="information">
     <div class="container">
-        <h2 class="title is-4 has-text-centered">Information</h2>
+        <div class="marker-img-blue-bold">
+            <h2 class="title is-4 has-text-centered">Information</h2>
+        </div>
         <div class="column markdown">
             <div class="info-content">
                 {{ range .Data.Pages }} {{if eq .Title "Infomation" }} {{.Content}} {{end}} {{ end }}

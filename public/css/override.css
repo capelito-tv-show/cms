@@ -1,3 +1,58 @@
+  .marker-img {
+    margin: 0 auto;
+    background: url(../img/red.jpg) no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+  }
+
+  .marker-img-red-bold {
+    width: 41%;
+    height: 79px;
+    margin: 0 auto;
+    background: url(../img/red_bold.jpg) no-repeat;
+    background-position: 50% 50%;
+    background-size: contain;
+  }
+
+
+  .marker-img-blue {
+    width: 41%;
+    height: 79px;
+    margin: 0 auto;
+    background: url(../img/blue.jpg) no-repeat;
+    background-position: 50% 50%;
+    background-size: contain;
+  }
+
+  .marker-img-blue-bold {
+    width: 41%;
+    height: 79px;
+    margin: 0 auto;
+    background: url(../img/blue_bold.jpg) no-repeat;
+    background-position: 50% 50%;
+    background-size: contain;
+  }
+
+
+  .marker-img-yellow {
+    width: 41%;
+    height: 79px;
+    margin: 0 auto;
+    background: url(../img/yellow.jpg) no-repeat;
+    background-position: 50% 50%;
+    background-size: contain;
+  }
+
+
+   .marker-img-yellow-bold {
+    width: 41%;
+    height: 79px;
+    margin: 0 auto;
+    background: url(../img/yellow_bold.jpg) no-repeat;
+    background-position: 50% 50%;
+    background-size: contain;
+  }
+
 #dance .backgtound-image {
   background: url("../img/top_dance.JPG") no-repeat fixed;
   width: 100%;
@@ -201,10 +256,27 @@ figure.hover-parent:hover .hover-mask{
   opacity: 1;
   transition:all 0.4s ease;
 } */
+
+@media screen and (min-width: 769px) {
+  .marker-img {
+    width: 40%;
+    height: 79px;
+    background-size: contain;
+  }
+}
 @media screen and (max-width: 768px) {
   .sub-title {
     font-size: 18px;
     text-align: center;
+  }
+
+  .marker-img {
+    width: 44%;
+    height: 79px;
+    margin: 0 auto;
+    background: url(../img/red.jpg) no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
   }
 
   .embed-map {
@@ -304,15 +376,9 @@ a.nav-item {
   box-shadow: none;
 }
 
-.red {
-  color: #fe4a79;
-}
-.blue {
-  color: #2ab7ca;
-}
-.yellow {
-  color: #fed766;
-}
+.red {color: #fe4a79;}
+.blue {color: #2ab7ca;}
+.yellow {color: #fed766;}
 
 @media screen and (max-width: 768px) {
   p : {
@@ -321,10 +387,7 @@ a.nav-item {
   .markdown hr {
     display: block;
   }
-  .nav-item {
-    padding: 5px;
-    font-size: 14px;
-  }
+  .nav-item {padding: 5px;font-size: 14px;}
   .is-2 {
     font-size: 2rem;
   }
@@ -356,10 +419,35 @@ a.nav-item {
   .title.is-4 {
     font-size: 18px;
   }
+  .marker-img {
+    width: 40%;
+    height: 79px;
+    margin: 0 auto;
+    background-size: contain;
+  }
+
 }
 #footer {
   font-size: 11px;
 }
 .blog-share a {
   color: black;
+}
+
+
+@media screen and (max-width: 320px) {
+  .nav-item {
+    padding: 3px;
+    font-size: 13px;
+ }
+ .markdown p {
+    font-size: 12px;
+    line-height: 1.9;
+ }
+ markdown td, .markdown th {
+    padding: .25rem .5rem;
+    border: 1px solid #e5e5e5;
+    text-align: center;
+    font-size: 12px;
+ }
 }
