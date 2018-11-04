@@ -18,7 +18,7 @@ googleAnalytics       = "UA-121881442-1"
 [params]
     blogHead            = "Blog"                            # Full name shows on blog post pages
     firstName           = "映身展2019"                    # First name shows in introduction on main page
-    tagLine             = "映身展2019"           # Appears after the introduction
+    tagLine             = "映身展"           # Appears after the introduction
     introHeight         = "medium"                           # Input either 'medium' or 'large' or 'fullheight'
     themeStyle          = "light"                           # Choose 'light' or 'dark'
     avatar              = "img/avatar.jpg"                 # Path to image in static folder eg. img/avatar.png, or comment out to remove
