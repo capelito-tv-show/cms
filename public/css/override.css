@@ -198,73 +198,36 @@ a.nav-item:hover::after {
 }
 
 .card-content:hover {
- outline: 1px solid #00b8d4; 
- background: 
- transition: .3s;
+ box-shadow: 0 0 1px rgba(0,0,0,.2);
 }
 
 .card-content a:hover {
   color: #00b8d4;
 }
-::after {
-  position: absolute;
-  bottom: 2px;
-  left: 0;
-  
-  width: 100%;
-  height: 2px;
-  color: white;
-  background: #333;
-  opacity: 0;
-  visibility: hidden;
-  
+::after {position: absolute;bottom: 2px;left: 0;width: 100%;height: 2px;color: white;background: #333;opacity: 0;visibility: hidden;
 }
-a.nav-item:hover::after {
-  bottom: -4px;
-  background: #fff;
-  opacity: 1;
-  visibility: visible;
+a.nav-item:hover::after {bottom: -4px;background: #fff;opacity: 1;visibility: visible;
 }
 
-.c-title {
-  font-size: 18px;
+.c-title {font-size: 18px;
 }
 
-.card-content {
-  padding: 1rem 0rem;
-  font-size: 18px;
+.card-content {padding: 1rem 0rem;font-size: 18px;
 }
-/* figure.hover-parent {
-  position: relative;
-  overflow: hidden;
+/* figure.hover-parent {position: relative;overflow: hidden;
 }
 
-figcaption.hover-mask {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: rgba(0,0,0,0.5);
-  opacity: 0;
-  color: #fff;
-  display: flex;
-  align-items: center;
-  text-align: center;
+figcaption.hover-mask {position: absolute;top: 0;bottom: 0;left: 0;right: 0;background: rgba(0,0,0,0.5);opacity: 0;color: #fff;display: flex;align-items: center;text-align: center;
 }
-figure.hover-parent:hover .hover-mask{
-  opacity: 1;
-  transition:all 0.4s ease;
+figure.hover-parent:hover .hover-mask{opacity: 1;transition:all 0.4s ease;
 } */
 
-@media screen and (min-width: 769px) {
-  .marker-img {
-    width: 40%;
-    height: 79px;
-    background-size: contain;
+@media screen and (min-width: 769px) {.marker-img {width: 40%;height: 79px;background-size: contain;
   }
+    .column-title {display: block;height: 60px;font-size: 14px;}
 }
 @media screen and (max-width: 768px) {
+
   .sub-title {
     font-size: 18px;
     text-align: center;
@@ -459,6 +422,7 @@ a.nav-item {
 #projects_nav ul li a:hover {background: #fff;color: #00b8d4;}
 #projects_nav ul li > ul{position: relative;display:none;padding:0;}
 #projects_nav ul li:hover > ul{display: block;position: absolute;background: #fff;color: #00b8d4;}
-#projects_nav ul li ul li {position: relative;width: 100%;margin:0 auto;float:none;z-index:1;background:#fff;}
-#projects_nav ul li ul li a {display: block;padding:10px 0;background:#fff;}
+#projects_nav ul li ul li {position: relative;width: 100%;margin:0 auto;float:none;z-index:1;}
+#projects_nav ul li ul li a {display: block;padding:10px 0;background:#fff;box-shadow: 0 0 1px rgba(0,0,0,.2);font-size: 12px;}
 #projects_nav ul li ul li a:hover {color: #00b8d4;}
+
