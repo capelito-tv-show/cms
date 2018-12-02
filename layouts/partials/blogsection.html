@@ -1,9 +1,9 @@
 <div class="container"><!-- Begin Blog container -->
 
-{{ if .Site.Params.showLatest }}
+{{ if .Site.Params.showAllPosts }}
       <h2 class="title is-4 has-text-centered">News</h2>
     </div>
-    {{ range first 1 (where .Data.Pages.ByPublishDate.Reverse "Section" "blog") }}
+    {{ range first 6 (where .Data.Pages "Section" "blog") }}
     <div class="summary">{{ .Date.Format (.Site.Params.dateForm | default "Jan 02, 2006") }}
         <h3 class="title is-4 latest-post-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
             <div class="markdown">
@@ -16,12 +16,12 @@
     {{ end }}
 {{ end }}
 
-{{ if .Site.Params.showAllPosts }}
+{{ if .Site.Params.showLatest}}
     <div class="marker-img-yellow">
         <h2 class="title is-4 has-text-centered top-pad">News</h2>
     </div>
     <ul>
-    {{ range .Data.Pages.ByPublishDate }}
+    {{ range first 10 .Data.Pages }}
         {{ if eq .Section "blog" }}
             {{ partial "blog_list.html" . }}
         {{ end }}

@@ -74,3 +74,13 @@ a.nav-item {
 .blog-share a {
   color: black;
 }
+#projects_nav{width:100%;margin:0 auto;}
+#projects_nav ul{width:100%;margin:0 auto;list-style:none;}
+#projects_nav ul li {position: relative;}
+#projects_nav ul li a {text-align:center;display: block;text-decoration: none;-moz-transition: .2s;-webkit-transition: .2s;-o-transition: .2s;-ms-transition: .2s;transition: .2s;}
+#projects_nav ul li a:hover {background: #fff;color: #00b8d4;}
+#projects_nav ul li > ul{position: relative;display:none;padding:0;}
+#projects_nav ul li:hover > ul{display: block;position: absolute;background: #fff;color: #00b8d4;border: 1px solid #00b8d4;}
+#projects_nav ul li ul li {position: relative;width: 100%;margin:0 auto;float:none;z-index:1;}
+#projects_nav ul li ul li a {display: block;padding:10px 0px;font-size:13px;background: #fff;}
+#projects_nav ul li ul li a:hover {color: #00b8d4;}
