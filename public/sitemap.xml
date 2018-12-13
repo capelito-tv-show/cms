@@ -134,13 +134,13 @@
   </url>
   
   <url>
-    <loc>/tags/dance/</loc>
-    <lastmod>2018-10-14T23:43:47+09:00</lastmod>
+    <loc>/categories/dance/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/dance/</loc>
+    <loc>/tags/dance/</loc>
+    <lastmod>2018-10-14T23:43:47+09:00</lastmod>
     <priority>0</priority>
   </url>
   
