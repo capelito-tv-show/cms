@@ -313,6 +313,15 @@ figure.hover-parent:hover .hover-mask{opacity: 1;transition:all 0.4s ease;
   box-shadow: none;
   border: none;
 }
+.schedule-image {
+  max-width: 700px;
+  width: 100%;
+  margin: 0 auto;
+  box-shadow: none;
+  border: none;
+  padding-bottom: 30px;
+}
+
 .embed-map {
   height: 350px;
 }
