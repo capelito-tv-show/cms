@@ -102,7 +102,14 @@
         <div class="column markdown">
             <div class="info-content">
                 {{ range .Data.Pages }} {{if eq .Title "Infomation" }} {{.Content}} {{end}} {{ end }}
-                <img src="../img/schedule.jpg" class="schedule-image" />
+            <img src="../img/schedule.jpg" class="schedule-image" />
+            <!-- <div class="modal" id="modal{{ $card := .Title | urlize }}{{ replace $card "%" ""}}">
+                <div class="modal-background"></div>
+                <div class="modal-card">
+                    <img src="../img/schedule.jpg" class="schedule-image" />
+                        <img src="{{ .Params.image }}" class="img-responsive img-centered">
+                </div>
+            </div> -->
             </div>
             <div class="columns is-multiline inline-block">
                 <div class="column is-harf">
